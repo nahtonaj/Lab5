@@ -1,0 +1,120 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do ECE2300_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/dual_reg_in.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:50:53 on Mar 27,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/dual_reg_in.v 
+# -- Compiling module dual_reg_in
+# 
+# Top level modules:
+# 	dual_reg_in
+# End time: 16:50:53 on Mar 27,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:50:53 on Mar 27,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 16:50:53 on Mar 27,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/adder.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:50:53 on Mar 27,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/adder.v 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 16:50:54 on Mar 27,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/hex_to_seven_seg.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:50:54 on Mar 27,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/hex_to_seven_seg.v 
+# -- Compiling module hex_to_seven_seg
+# 
+# Top level modules:
+# 	hex_to_seven_seg
+# End time: 16:50:54 on Mar 27,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/alu_top.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:50:54 on Mar 27,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/alu_top.v 
+# -- Compiling module alu_top
+# 
+# Top level modules:
+# 	alu_top
+# End time: 16:50:54 on Mar 27,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/opsel.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:50:54 on Mar 27,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/opsel.v 
+# -- Compiling module opsel
+# 
+# Top level modules:
+# 	opsel
+# End time: 16:50:54 on Mar 27,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/alu_test.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:50:54 on Mar 27,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/alu_test.v 
+# -- Compiling module alu_test
+# 
+# Top level modules:
+# 	alu_test
+# End time: 16:50:54 on Mar 27,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  alu_test
+# vsim -gui "+altera" -l msim_transcript -do "ECE2300_run_msim_rtl_verilog.do" 
+# Start time: 16:50:54 on Mar 27,2018
+# Loading work.alu_test
+# Loading work.alu
+# Loading work.adder
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# MSIM>
+# MSIM> ADD is correct for A = 00000000, B = 00000000: Y = 00000000, CVNZ = 0001
+# MSIM>
+# MSIM> ERROR: ADD is incorrect for A = 01111111, B = 00000001: Y = 10000100 (should be 10000000), CVNZ = 0110 (should be 0111)
+# MSIM>
+# MSIM> ERROR: ADD is incorrect for A = 10000000, B = 11111111: Y = 01111111 (should be 00000000), CVNZ = 1100 (should be 1101)
+# MSIM>
+# MSIM> ERROR: ADD is incorrect for A = 00000001, B = 00000001: Y = 00000010 (should be 00000010), CVNZ = 0000 (should be 0001)
+# MSIM>
+# MSIM> ERROR: ADD is incorrect for A = 11111111, B = 11111111: Y = 11111110 (should be 11111110), CVNZ = 1010 (should be 1011)
+# MSIM>
+# MSIM> ERROR: ADD is incorrect for A = 00000001, B = 11111111: Y = 00000100 (should be 00000000), CVNZ = 1000 (should be 1001)
+# MSIM> 
+# MSIM> Number of tests failed:  5
+# ** Note: $stop    : C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/alu_test.v(178)
+#    Time: 600 ns  Iteration: 0  Instance: /alu_test
+# Break in Module alu_test at C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/alu_test.v line 178
+# Simulation Breakpoint: Break in Module alu_test at C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/alu_test.v line 178
+# MACRO ./ECE2300_run_msim_rtl_verilog.do PAUSED at line 22
+# End time: 16:54:45 on Mar 27,2018, Elapsed time: 0:03:51
+# Errors: 0, Warnings: 0
