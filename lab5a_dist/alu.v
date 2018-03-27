@@ -12,7 +12,17 @@ module alu(A, B, OP, Y, C, V, N, Z);
 
   // ADD YOUR CODE BELOW THIS LINE
  
-  
+	adder a(
+		.A(A),
+		.B(B),
+		.CI(1'b0),
+		.Y(Y),
+		.N(N), 
+		.V(V),   
+		.Z(Z),
+		.C(C)
+	);
+
   // ADD YOUR CODE ABOVE THIS LINE
 
 

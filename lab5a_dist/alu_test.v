@@ -59,17 +59,113 @@ module alu_test();
     
     $display("MSIM>");
     if(Y == 8'h0 && C == 1'b0 && V == 1'b0 && N == 1'b0 && Z == 1'b1) begin
-      $display("MSIM> ADD is correct for A = %2h, B = %2h: Y = %2h, CVNZ = %1b%1b%1b%1b", A, B, Y, C, V, N, Z);
+      $display("MSIM> ADD is correct for A = %8b, B = %8b: Y = %8b, CVNZ = %1b%1b%1b%1b", A, B, Y, C, V, N, Z);
     end
     else begin
       // note that we have to fill in the expected values by hand here, so we can make sure what our outputs should have been
-      $display("MSIM> ERROR: ADD is incorrect for A = %2h, B = %2h: Y = %2h (should be 0), CVNZ = %1b%1b%1b%1b (should be 0001)", A, B, Y, C, V, N, Z);
+      $display("MSIM> ERROR: ADD is incorrect for A = %8b, B = %8b: Y = %8b (should be 0), CVNZ = %1b%1b%1b%1b (should be 0001)", A, B, Y, C, V, N, Z);
       currentTestFailed = 1;
     end
 
     numTestsFailed = numTestsFailed + currentTestFailed;
 
     // ADD MORE TESTS CASES HERE
+	 
+	 // 127 + 1 = -128, CNVZ=0111
+	 A = 8'b01111111;
+	 B = 8'b00000001;
+	 OP = 3'b000;
+	 
+	 #100
+	 
+	 $display("MSIM>");
+    if(Y == 8'b10000000 && C == 1'b0 && V == 1'b1 && N == 1'b1 && Z == 1'b1) begin
+      $display("MSIM> ADD is correct for A = %8b, B = %8b: Y = %8b, CVNZ = %1b%1b%1b%1b", A, B, Y, C, V, N, Z);
+    end
+    else begin
+      // note that we have to fill in the expected values by hand here, so we can make sure what our outputs should have been
+      $display("MSIM> ERROR: ADD is incorrect for A = %8b, B = %8b: Y = %8b (should be 10000000), CVNZ = %1b%1b%1b%1b (should be 0111)", A, B, Y, C, V, N, Z);
+      currentTestFailed = 1;
+    end
+
+    numTestsFailed = numTestsFailed + currentTestFailed;
+	 
+	 // -128 + -1 = 0, CVNZ=1101
+	 A = 8'b10000000;
+	 B = 8'b11111111;
+	 OP = 3'b000;
+	 
+	 #100
+	 
+	 $display("MSIM>");
+    if(Y == 8'b00000000 && C == 1'b1 && V == 1'b1 && N == 1'b0 && Z == 1'b1) begin
+      $display("MSIM> ADD is correct for A = %8b, B = %8b: Y = %8b, CVNZ = %1b%1b%1b%1b", A, B, Y, C, V, N, Z);
+    end
+    else begin
+      // note that we have to fill in the expected values by hand here, so we can make sure what our outputs should have been
+      $display("MSIM> ERROR: ADD is incorrect for A = %8b, B = %8b: Y = %8b (should be 00000000), CVNZ = %1b%1b%1b%1b (should be 1101)", A, B, Y, C, V, N, Z);
+      currentTestFailed = 1;
+    end
+
+    numTestsFailed = numTestsFailed + currentTestFailed;
+	 
+	 // 1 + 1 = 2, CVNZ=0000
+	 A = 8'b00000001;
+	 B = 8'b00000001;
+	 OP = 3'b000;
+	 
+	 #100
+	 
+	 $display("MSIM>");
+    if(Y == 8'b00000010 && C == 1'b0 && V == 1'b0 && N == 1'b0 && Z == 1'b0) begin
+      $display("MSIM> ADD is correct for A = %8b, B = %8b: Y = %8b, CVNZ = %1b%1b%1b%1b", A, B, Y, C, V, N, Z);
+    end
+    else begin
+      // note that we have to fill in the expected values by hand here, so we can make sure what our outputs should have been
+      $display("MSIM> ERROR: ADD is incorrect for A = %8b, B = %8b: Y = %8b (should be 00000010), CVNZ = %1b%1b%1b%1b (should be 0000)", A, B, Y, C, V, N, Z);
+      currentTestFailed = 1;
+    end
+
+    numTestsFailed = numTestsFailed + currentTestFailed;
+	 
+	 // -1 + -1 = -2, CVNZ=1010
+	 A = 8'b11111111;
+	 B = 8'b11111111;
+	 OP = 3'b000;
+	 
+	 #100
+	 
+	 $display("MSIM>");
+    if(Y == 8'b11111110 && C == 1'b0 && V == 1'b0 && N == 1'b1 && Z == 1'b0) begin
+      $display("MSIM> ADD is correct for A = %8b, B = %8b: Y = %8b, CVNZ = %1b%1b%1b%1b", A, B, Y, C, V, N, Z);
+    end
+    else begin
+      // note that we have to fill in the expected values by hand here, so we can make sure what our outputs should have been
+      $display("MSIM> ERROR: ADD is incorrect for A = %8b, B = %8b: Y = %8b (should be 11111110), CVNZ = %1b%1b%1b%1b (should be 1010)", A, B, Y, C, V, N, Z);
+      currentTestFailed = 1;
+    end
+
+    numTestsFailed = numTestsFailed + currentTestFailed;
+	 
+	 // 1 + -1 = 0, CVNZ=1001
+	 A = 8'b00000001;
+	 B = 8'b11111111;
+	 OP = 3'b000;
+	 
+	 #100
+	 
+	 $display("MSIM>");
+    if(Y == 8'b00000000 && C == 1'b1 && V == 1'b0 && N == 1'b0 && Z == 1'b1) begin
+      $display("MSIM> ADD is correct for A = %8b, B = %8b: Y = %8b, CVNZ = %1b%1b%1b%1b", A, B, Y, C, V, N, Z);
+    end
+    else begin
+      // note that we have to fill in the expected values by hand here, so we can make sure what our outputs should have been
+      $display("MSIM> ERROR: ADD is incorrect for A = %8b, B = %8b: Y = %8b (should be 00000000), CVNZ = %1b%1b%1b%1b (should be 1001)", A, B, Y, C, V, N, Z);
+      currentTestFailed = 1;
+    end
+
+    numTestsFailed = numTestsFailed + currentTestFailed;
+	 
     
     // END TEST CASES
     
