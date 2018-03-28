@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ECE2300
-Tue Mar 27 16:50:30 2018
+Wed Mar 28 02:25:45 2018
 Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
 
 
@@ -45,7 +45,7 @@ agreement for further details.
 +------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                 ;
 +---------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Mar 27 16:50:30 2018      ;
+; Analysis & Synthesis Status     ; Successful - Wed Mar 28 02:25:45 2018      ;
 ; Quartus II 64-Bit Version       ; 15.0.0 Build 145 04/22/2015 SJ Web Edition ;
 ; Revision Name                   ; ECE2300                                    ;
 ; Top-level Entity Name           ; alu_top                                    ;
@@ -170,18 +170,19 @@ agreement for further details.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                        ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                          ; Library ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------+---------+
-; dual_reg_in.v                    ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/dual_reg_in.v      ;         ;
-; alu.v                            ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/alu.v              ;         ;
-; adder.v                          ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/adder.v            ;         ;
-; hex_to_seven_seg.v               ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/hex_to_seven_seg.v ;         ;
-; alu_top.v                        ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/alu_top.v          ;         ;
-; opsel.v                          ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/opsel.v            ;         ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                               ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                 ; Library ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------+---------+
+; dual_reg_in.v                    ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/dual_reg_in.v      ;         ;
+; alu.v                            ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu.v              ;         ;
+; adder.v                          ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/adder.v            ;         ;
+; hex_to_seven_seg.v               ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/hex_to_seven_seg.v ;         ;
+; alu_top.v                        ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu_top.v          ;         ;
+; opsel.v                          ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/opsel.v            ;         ;
+; full.v                           ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/full.v             ;         ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------+
@@ -191,12 +192,12 @@ agreement for further details.
 +---------------------------------------------+-------------+
 ; Estimate of Logic utilization (ALMs needed) ; 38          ;
 ;                                             ;             ;
-; Combinational ALUT usage for logic          ; 65          ;
+; Combinational ALUT usage for logic          ; 64          ;
 ;     -- 7 input functions                    ; 0           ;
 ;     -- 6 input functions                    ; 8           ;
 ;     -- 5 input functions                    ; 1           ;
 ;     -- 4 input functions                    ; 44          ;
-;     -- <=3 input functions                  ; 12          ;
+;     -- <=3 input functions                  ; 11          ;
 ;                                             ;             ;
 ; Dedicated logic registers                   ; 20          ;
 ;                                             ;             ;
@@ -206,7 +207,7 @@ agreement for further details.
 ;                                             ;             ;
 ; Maximum fan-out node                        ; CLK50~input ;
 ; Maximum fan-out                             ; 20          ;
-; Total fan-out                               ; 433         ;
+; Total fan-out                               ; 431         ;
 ; Average fan-out                             ; 1.98        ;
 +---------------------------------------------+-------------+
 
@@ -216,9 +217,17 @@ agreement for further details.
 +------------------------------------+-------------------+--------------+-------------------+------------+------+--------------+----------------------------------------+--------------+
 ; Compilation Hierarchy Node         ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                    ; Library Name ;
 +------------------------------------+-------------------+--------------+-------------------+------------+------+--------------+----------------------------------------+--------------+
-; |alu_top                           ; 65 (0)            ; 20 (0)       ; 0                 ; 0          ; 67   ; 0            ; |alu_top                               ; work         ;
-;    |alu:theALU|                    ; 17 (0)            ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|alu:theALU                    ; work         ;
-;       |adder:a|                    ; 17 (17)           ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|alu:theALU|adder:a            ; work         ;
+; |alu_top                           ; 64 (0)            ; 20 (0)       ; 0                 ; 0          ; 67   ; 0            ; |alu_top                               ; work         ;
+;    |alu:theALU|                    ; 16 (0)            ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|alu:theALU                    ; work         ;
+;       |adder:a|                    ; 16 (3)            ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|alu:theALU|adder:a            ; work         ;
+;          |full:five|               ; 4 (4)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|alu:theALU|adder:a|full:five  ; work         ;
+;          |full:four|               ; 1 (1)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|alu:theALU|adder:a|full:four  ; work         ;
+;          |full:one|                ; 1 (1)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|alu:theALU|adder:a|full:one   ; work         ;
+;          |full:seven|              ; 2 (2)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|alu:theALU|adder:a|full:seven ; work         ;
+;          |full:six|                ; 1 (1)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|alu:theALU|adder:a|full:six   ; work         ;
+;          |full:three|              ; 1 (1)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|alu:theALU|adder:a|full:three ; work         ;
+;          |full:two|                ; 2 (2)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|alu:theALU|adder:a|full:two   ; work         ;
+;          |full:zero|               ; 1 (1)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|alu:theALU|adder:a|full:zero  ; work         ;
 ;    |dual_reg_in:inputs|            ; 2 (2)             ; 16 (16)      ; 0                 ; 0          ; 0    ; 0            ; |alu_top|dual_reg_in:inputs            ; work         ;
 ;    |hex_to_seven_seg:lowerBitsOfA| ; 7 (7)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|hex_to_seven_seg:lowerBitsOfA ; work         ;
 ;    |hex_to_seven_seg:lowerBitsOfB| ; 7 (7)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|hex_to_seven_seg:lowerBitsOfB ; work         ;
@@ -263,11 +272,11 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; arriav_ff             ; 20                          ;
 ;     ENA               ; 19                          ;
 ;     plain             ; 1                           ;
-; arriav_lcell_comb     ; 73                          ;
-;     normal            ; 73                          ;
+; arriav_lcell_comb     ; 72                          ;
+;     normal            ; 72                          ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 7                           ;
-;         2 data inputs ; 7                           ;
+;         2 data inputs ; 6                           ;
 ;         3 data inputs ; 5                           ;
 ;         4 data inputs ; 44                          ;
 ;         5 data inputs ; 1                           ;
@@ -275,7 +284,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; boundary_port         ; 67                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 5.00                        ;
-; Average LUT depth     ; 2.50                        ;
+; Average LUT depth     ; 2.48                        ;
 +-----------------------+-----------------------------+
 
 
@@ -294,7 +303,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
-    Info: Processing started: Tue Mar 27 16:50:15 2018
+    Info: Processing started: Wed Mar 28 02:25:30 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab5a -c ECE2300
 Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
 Info (12021): Found 1 design units, including 1 entities, in source file dual_reg_in.v
@@ -317,9 +326,12 @@ Info (12021): Found 1 design units, including 1 entities, in source file alu_top
     Info (12023): Found entity 1: alu_top
 Info (12021): Found 1 design units, including 1 entities, in source file opsel.v
     Info (12023): Found entity 1: opsel
+Info (12021): Found 1 design units, including 1 entities, in source file full.v
+    Info (12023): Found entity 1: full
 Info (12127): Elaborating entity "alu_top" for the top level hierarchy
 Info (12128): Elaborating entity "alu" for hierarchy "alu:theALU"
 Info (12128): Elaborating entity "adder" for hierarchy "alu:theALU|adder:a"
+Info (12128): Elaborating entity "full" for hierarchy "alu:theALU|adder:a|full:zero"
 Info (12128): Elaborating entity "dual_reg_in" for hierarchy "dual_reg_in:inputs"
 Info (12128): Elaborating entity "opsel" for hierarchy "opsel:sel"
 Info (12128): Elaborating entity "hex_to_seven_seg" for hierarchy "hex_to_seven_seg:upperBitsOfA"
@@ -330,20 +342,20 @@ Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "LEDR[8]" is stuck at GND
     Warning (13410): Pin "LEDR[9]" is stuck at GND
 Info (286030): Timing-Driven Synthesis is running
-Info (144001): Generated suppressed messages file C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/ECE2300.map.smsg
+Info (144001): Generated suppressed messages file C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/ECE2300.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 3 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "SW[9]"
     Warning (15610): No output dependent on input pin "KEY[1]"
     Warning (15610): No output dependent on input pin "KEY[2]"
-Info (21057): Implemented 149 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 148 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 15 input pins
     Info (21059): Implemented 52 output pins
-    Info (21061): Implemented 82 logic cells
+    Info (21061): Implemented 81 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 8 warnings
-    Info: Peak virtual memory: 781 megabytes
-    Info: Processing ended: Tue Mar 27 16:50:30 2018
+    Info: Peak virtual memory: 780 megabytes
+    Info: Processing ended: Wed Mar 28 02:25:45 2018
     Info: Elapsed time: 00:00:15
     Info: Total CPU time (on all processors): 00:00:33
 
@@ -351,6 +363,6 @@ Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 8 warning
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5a_release/lab5a_dist/ECE2300.map.smsg.
+The suppressed messages can be found in C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/ECE2300.map.smsg.
 
 

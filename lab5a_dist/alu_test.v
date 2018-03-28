@@ -71,7 +71,7 @@ module alu_test();
 
     // ADD MORE TESTS CASES HERE
 	 
-	 // 127 + 1 = -128, CNVZ=0111
+	 // 127 + 1 = -128, CNVZ=0110
 	 A = 8'b01111111;
 	 B = 8'b00000001;
 	 OP = 3'b000;
@@ -79,18 +79,18 @@ module alu_test();
 	 #100
 	 
 	 $display("MSIM>");
-    if(Y == 8'b10000000 && C == 1'b0 && V == 1'b1 && N == 1'b1 && Z == 1'b1) begin
+    if(Y == 8'b10000000 && C == 1'b0 && V == 1'b1 && N == 1'b1 && Z == 1'b0) begin
       $display("MSIM> ADD is correct for A = %8b, B = %8b: Y = %8b, CVNZ = %1b%1b%1b%1b", A, B, Y, C, V, N, Z);
     end
     else begin
       // note that we have to fill in the expected values by hand here, so we can make sure what our outputs should have been
-      $display("MSIM> ERROR: ADD is incorrect for A = %8b, B = %8b: Y = %8b (should be 10000000), CVNZ = %1b%1b%1b%1b (should be 0111)", A, B, Y, C, V, N, Z);
+      $display("MSIM> ERROR: ADD is incorrect for A = %8b, B = %8b: Y = %8b (should be 10000000), CVNZ = %1b%1b%1b%1b (should be 0110)", A, B, Y, C, V, N, Z);
       currentTestFailed = 1;
     end
 
     numTestsFailed = numTestsFailed + currentTestFailed;
 	 
-	 // -128 + -1 = 0, CVNZ=1101
+	 // -128 + -1 = 127, CVNZ=1100
 	 A = 8'b10000000;
 	 B = 8'b11111111;
 	 OP = 3'b000;
@@ -98,12 +98,12 @@ module alu_test();
 	 #100
 	 
 	 $display("MSIM>");
-    if(Y == 8'b00000000 && C == 1'b1 && V == 1'b1 && N == 1'b0 && Z == 1'b1) begin
+    if(Y == 8'b01111111 && C == 1'b1 && V == 1'b1 && N == 1'b0 && Z == 1'b0) begin
       $display("MSIM> ADD is correct for A = %8b, B = %8b: Y = %8b, CVNZ = %1b%1b%1b%1b", A, B, Y, C, V, N, Z);
     end
     else begin
       // note that we have to fill in the expected values by hand here, so we can make sure what our outputs should have been
-      $display("MSIM> ERROR: ADD is incorrect for A = %8b, B = %8b: Y = %8b (should be 00000000), CVNZ = %1b%1b%1b%1b (should be 1101)", A, B, Y, C, V, N, Z);
+      $display("MSIM> ERROR: ADD is incorrect for A = %8b, B = %8b: Y = %8b (should be 01111111), CVNZ = %1b%1b%1b%1b (should be 1100)", A, B, Y, C, V, N, Z);
       currentTestFailed = 1;
     end
 

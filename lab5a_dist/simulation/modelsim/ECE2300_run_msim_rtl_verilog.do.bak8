@@ -11,7 +11,6 @@ vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/
 vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/hex_to_seven_seg.v}
 vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu_top.v}
 vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/opsel.v}
-vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/full.v}
 
 vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu_test.v}
 
