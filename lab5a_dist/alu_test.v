@@ -136,7 +136,7 @@ module alu_test();
 	 #100
 	 
 	 $display("MSIM>");
-    if(Y == 8'b11111110 && C == 1'b0 && V == 1'b0 && N == 1'b1 && Z == 1'b0) begin
+    if(Y == 8'b11111110 && C == 1'b1 && V == 1'b0 && N == 1'b1 && Z == 1'b0) begin
       $display("MSIM> ADD is correct for A = %8b, B = %8b: Y = %8b, CVNZ = %1b%1b%1b%1b", A, B, Y, C, V, N, Z);
     end
     else begin
