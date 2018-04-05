@@ -1,4 +1,4 @@
-module shifter(SI, A, Y, LA, LR, C, N, V, Z); // add all inputs and outputs inside parentheses
+module shifter(A, Y, LA, LR, C, N, V, Z); // add all inputs and outputs inside parentheses
 
   // inputs
   input 				 LA, LR;
@@ -16,6 +16,7 @@ module shifter(SI, A, Y, LA, LR, C, N, V, Z); // add all inputs and outputs insi
   // if arithmetic shift, assign SI as MSB, 
   // otherwise SI is 0.
   assign SI = LA ? A[7] : 1'b0;
+  
   // if right shift, assign LSB to SO,
   // otherwise SO is MSB.
   assign C = LR ? A[0] : A[7];

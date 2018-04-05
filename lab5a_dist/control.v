@@ -9,7 +9,7 @@ module control(OP, CISEL, BSEL, OSEL, SHIFT_LA, SHIFT_LR, LOGICAL_OP); // add ot
   // reg and internal variable definitions
   
   parameter [2:0] ADD = 3'b000,
-						SUB = 3'b001;
+						SUB = 3'b001,
 						SRA = 3'b010,
 						SRL = 3'b011,
 						SLL = 3'b100,
@@ -31,7 +31,9 @@ module control(OP, CISEL, BSEL, OSEL, SHIFT_LA, SHIFT_LR, LOGICAL_OP); // add ot
   assign LOGICAL_OP = (OP == AND) ? 1'b1 : 1'b0;
   
   always @(*) begin
-	if(OP == AND | OP == OR) OSEL <= 2'b10;
+	if(OP == AND | OP == OR) begin
+		OSEL <= 2'b10;
+	end
 	else if(OP == SRA | OP == SRL | OP == SLL) OSEL <= 2'b01;
 	else OSEL <= 2'b00; // adder module is default
   end
