@@ -10,10 +10,10 @@ module alu(A, B, OP, Y, C, V, N, Z);
   output        Z;
   
   wire [7:0]	 LOGIC_Y, SHIFT_Y, ADD_Y;
-  wire 			 LOGICAL_OP, LOGIC_C, LOGIC_N, LOGIC_V, LOGIC_Z;
-  wire 			 SHIFT_LA, SHIFT_LR, SHIFT_C, SHIFT_N, SHIFT_V, SHIFT_Z;
+  wire 			 LOGICAL_OP, LOGIC_C, LOGIC_V;
+  wire 			 SHIFT_LA, SHIFT_LR, SHIFT_C, SHIFT_V;
   wire			 CISEL, CI, BSEL; 
-  wire			 ADD_C, ADD_N, ADD_V, ADD_Z;
+  wire			 ADD_C, ADD_V;
   wire [1:0]	 OSEL;
   
   // comment out each implemented modules to test them one at a time
@@ -24,10 +24,8 @@ module alu(A, B, OP, Y, C, V, N, Z);
 		.A(A),
 		.B(B),
 		.CI(CI),
-		.Y(ADD_Y),
-		.N(ADD_N), 
-		.V(ADD_V),   
-		.Z(ADD_Z),
+		.Y(ADD_Y), 
+		.V(ADD_V),
 		.C(ADD_C)
 	);
 	
@@ -37,9 +35,7 @@ module alu(A, B, OP, Y, C, V, N, Z);
 		.LA(SHIFT_LA), 
 		.LR(SHIFT_LR), 
 		.C(SHIFT_C), 
-		.N(SHIFT_N), 
-		.V(SHIFT_V), 
-		.Z(SHIFT_Z)
+		.V(SHIFT_V)
 	);
 	
 	logical l(
@@ -48,9 +44,7 @@ module alu(A, B, OP, Y, C, V, N, Z);
 		.OP(LOGICAL_OP), 
 		.Y(LOGIC_Y), 
 		.C(LOGIC_C), 
-		.V(LOGIC_V), 
-		.N(LOGIC_N), 
-		.Z(LOGIC_Z)
+		.V(LOGIC_V)
 	);
 	
 	control c(
@@ -70,20 +64,14 @@ module alu(A, B, OP, Y, C, V, N, Z);
 	
 	muxOSEL mO(
 		.ADD_Y(ADD_Y), 
-		.ADD_C(ADD_C), 
-		.ADD_N(ADD_N), 
+		.ADD_C(ADD_C),  
 		.ADD_V(ADD_V), 
-		.ADD_Z(ADD_Z),
 		.SHIFT_Y(SHIFT_Y), 
-		.SHIFT_C(SHIFT_C), 
-		.SHIFT_N(SHIFT_N), 
+		.SHIFT_C(SHIFT_C),  
 		.SHIFT_V(SHIFT_V), 
-		.SHIFT_Z(SHIFT_Z),
 		.LOGIC_Y(LOGIC_Y), 
-		.LOGIC_C(LOGIC_C), 
-		.LOGIC_N(LOGIC_N), 
+		.LOGIC_C(LOGIC_C),  
 		.LOGIC_V(LOGIC_V), 
-		.LOGIC_Z(LOGIC_Z),
 		.OSEL(OSEL), 
 		.Y(Y), 
 		.C(C), 

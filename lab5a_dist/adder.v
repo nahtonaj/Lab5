@@ -1,4 +1,4 @@
-module adder(A, B, CI, C, Y, N, V, Z);
+module adder(A, B, CI, C, Y, V);
 
   // inputs
   input [7:0] A;
@@ -7,9 +7,7 @@ module adder(A, B, CI, C, Y, N, V, Z);
   
   // outputs
   output [7:0] Y;
-  output N;
   output V;
-  output Z;
   output C;
 
   wire c1, c2, c3, c4, c5, c6, c7;
@@ -78,13 +76,8 @@ module adder(A, B, CI, C, Y, N, V, Z);
 		.S(Y[7])
   );
   
-  // check negative
-  assign N = Y[7];
   
   // overflow detection
   assign V = (c7 == C) ? 1'b0 : 1'b1;
-  
-  // set zero flag
-  assign Z = ~(Y[7] | Y[6] | Y[5] | Y[4] | Y[3] | Y[2] | Y[1] | Y[0]); 
   
 endmodule

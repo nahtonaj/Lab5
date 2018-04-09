@@ -1,11 +1,11 @@
-module shifter(A, Y, LA, LR, C, N, V, Z); // add all inputs and outputs inside parentheses
+module shifter(A, Y, LA, LR, C, V); // add all inputs and outputs inside parentheses
 
   // inputs
   input 				 LA, LR;
   input [7:0]  	 A;
 
   // outputs
-  output 			 C, N, V, Z;
+  output 			 C, V
   output reg [7:0] Y;
   
   // reg and internal variable definitions
@@ -45,14 +45,7 @@ module shifter(A, Y, LA, LR, C, N, V, Z); // add all inputs and outputs inside p
 	 end
   end
   
-  // check negative
-  assign N = Y[7];
-  
   // overflow detection
   assign V = 0;
-  
-  // set zero flag
-  assign Z = ~(Y[7] | Y[6] | Y[5] | Y[4] | Y[3] | Y[2] | Y[1] | Y[0]); 
-	
   
 endmodule
