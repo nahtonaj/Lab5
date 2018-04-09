@@ -6,8 +6,8 @@ module alu(A, B, OP, Y, C, V, N, Z);
   output [7:0]  Y;
   output        C;
   output        V;
-  output reg    N;
-  output reg    Z;
+  output        N;
+  output        Z;
   
   wire [7:0]	 LOGIC_Y, SHIFT_Y, ADD_Y;
   wire 			 LOGICAL_OP, LOGIC_C, LOGIC_V;
@@ -76,7 +76,7 @@ module alu(A, B, OP, Y, C, V, N, Z);
 		.Y(Y), 
 		.C(C), 
 		.V(V)
-	)
+	);
 	
 	assign N = Y[7];
 	assign Z = ~(Y[7] | Y[6] | Y[5] | Y[4] | Y[3] | Y[2] | Y[1] | Y[0]);

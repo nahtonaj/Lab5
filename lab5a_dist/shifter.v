@@ -5,7 +5,7 @@ module shifter(A, Y, LA, LR, C, V); // add all inputs and outputs inside parenth
   input [7:0]  	 A;
 
   // outputs
-  output 			 C, V
+  output 			 C, V;
   output reg [7:0] Y;
   
   // reg and internal variable definitions
