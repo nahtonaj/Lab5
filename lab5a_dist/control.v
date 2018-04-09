@@ -25,7 +25,7 @@ module control(OP, CISEL, BSEL, OSEL, SHIFT_LA, SHIFT_LR, LOGICAL_OP); // add ot
   // arithmetic = 1, logical = 0
   // right = 1, left = 0
   assign SHIFT_LA = (OP == SRA) ? 1'b1 : 1'b0;
-  assign SHIFT_LR = (OP == SRL) ? 1'b1 : 1'b0;
+  assign SHIFT_LR = (OP == SRL | OP == SRA) ? 1'b1 : 1'b0;
   
   // AND = 1, OR = 0
   assign LOGICAL_OP = (OP == AND) ? 1'b1 : 1'b0;

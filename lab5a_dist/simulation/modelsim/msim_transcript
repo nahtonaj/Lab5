@@ -1,4 +1,4 @@
-# Reading E:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
 # do ECE2300_run_msim_rtl_verilog.do
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
@@ -12,95 +12,150 @@
 # ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/gao-p/Google\ Drive/Cornell\ Notebooks/ECE2300/Lab5/lab5a_dist {C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/dual_reg_in.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/dual_reg_in.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 14:58:19 on Mar 28,2018
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist" C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/dual_reg_in.v 
+# Start time: 14:17:39 on Apr 09,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/dual_reg_in.v 
 # -- Compiling module dual_reg_in
 # 
 # Top level modules:
 # 	dual_reg_in
-# End time: 14:58:20 on Mar 28,2018, Elapsed time: 0:00:01
+# End time: 14:17:39 on Apr 09,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gao-p/Google\ Drive/Cornell\ Notebooks/ECE2300/Lab5/lab5a_dist {C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/logical.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 14:58:20 on Mar 28,2018
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist" C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu.v 
+# Start time: 14:17:39 on Apr 09,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/logical.v 
+# -- Compiling module logical
+# 
+# Top level modules:
+# 	logical
+# End time: 14:17:39 on Apr 09,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 14:17:39 on Apr 09,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu.v 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 14:58:20 on Mar 28,2018, Elapsed time: 0:00:00
+# End time: 14:17:39 on Apr 09,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gao-p/Google\ Drive/Cornell\ Notebooks/ECE2300/Lab5/lab5a_dist {C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/adder.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/adder.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 14:58:20 on Mar 28,2018
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist" C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/adder.v 
+# Start time: 14:17:39 on Apr 09,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/adder.v 
 # -- Compiling module adder
 # 
 # Top level modules:
 # 	adder
-# End time: 14:58:20 on Mar 28,2018, Elapsed time: 0:00:00
+# End time: 14:17:39 on Apr 09,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gao-p/Google\ Drive/Cornell\ Notebooks/ECE2300/Lab5/lab5a_dist {C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/hex_to_seven_seg.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/hex_to_seven_seg.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 14:58:20 on Mar 28,2018
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist" C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/hex_to_seven_seg.v 
+# Start time: 14:17:39 on Apr 09,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/hex_to_seven_seg.v 
 # -- Compiling module hex_to_seven_seg
 # 
 # Top level modules:
 # 	hex_to_seven_seg
-# End time: 14:58:20 on Mar 28,2018, Elapsed time: 0:00:00
+# End time: 14:17:39 on Apr 09,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gao-p/Google\ Drive/Cornell\ Notebooks/ECE2300/Lab5/lab5a_dist {C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu_top.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/shifter.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 14:58:21 on Mar 28,2018
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist" C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu_top.v 
+# Start time: 14:17:39 on Apr 09,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/shifter.v 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 14:17:40 on Apr 09,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/control.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 14:17:40 on Apr 09,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/control.v 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 14:17:40 on Apr 09,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu_top.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 14:17:40 on Apr 09,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu_top.v 
 # -- Compiling module alu_top
 # 
 # Top level modules:
 # 	alu_top
-# End time: 14:58:21 on Mar 28,2018, Elapsed time: 0:00:00
+# End time: 14:17:40 on Apr 09,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gao-p/Google\ Drive/Cornell\ Notebooks/ECE2300/Lab5/lab5a_dist {C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/opsel.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/opsel.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 14:58:21 on Mar 28,2018
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist" C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/opsel.v 
+# Start time: 14:17:40 on Apr 09,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/opsel.v 
 # -- Compiling module opsel
 # 
 # Top level modules:
 # 	opsel
-# End time: 14:58:21 on Mar 28,2018, Elapsed time: 0:00:00
+# End time: 14:17:40 on Apr 09,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gao-p/Google\ Drive/Cornell\ Notebooks/ECE2300/Lab5/lab5a_dist {C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/full.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/full.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 14:58:21 on Mar 28,2018
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist" C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/full.v 
+# Start time: 14:17:40 on Apr 09,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/full.v 
 # -- Compiling module full
 # 
 # Top level modules:
 # 	full
-# End time: 14:58:21 on Mar 28,2018, Elapsed time: 0:00:00
+# End time: 14:17:40 on Apr 09,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/muxOSEL.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 14:17:40 on Apr 09,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/muxOSEL.v 
+# -- Compiling module muxOSEL
+# 
+# Top level modules:
+# 	muxOSEL
+# End time: 14:17:40 on Apr 09,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/muxADD.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 14:17:40 on Apr 09,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/muxADD.v 
+# -- Compiling module muxADD
+# 
+# Top level modules:
+# 	muxADD
+# End time: 14:17:40 on Apr 09,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/gao-p/Google\ Drive/Cornell\ Notebooks/ECE2300/Lab5/lab5a_dist {C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu_test.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu_test.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 14:58:21 on Mar 28,2018
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist" C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu_test.v 
+# Start time: 14:17:40 on Apr 09,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu_test.v 
 # -- Compiling module alu_test
 # 
 # Top level modules:
 # 	alu_test
-# End time: 14:58:22 on Mar 28,2018, Elapsed time: 0:00:01
+# End time: 14:17:41 on Apr 09,2018, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  alu_test
 # vsim -gui "+altera" -l msim_transcript -do "ECE2300_run_msim_rtl_verilog.do" 
-# Start time: 14:58:22 on Mar 28,2018
+# Start time: 14:17:41 on Apr 09,2018
 # Loading work.alu_test
 # Loading work.alu
 # Loading work.adder
 # Loading work.full
+# Loading work.shifter
+# Loading work.logical
+# Loading work.control
+# Loading work.muxADD
+# Loading work.muxOSEL
 # 
 # add wave *
 # view structure
@@ -120,12 +175,24 @@
 # MSIM> ADD is correct for A = 11111111, B = 11111111: Y = 11111110, CVNZ = 1010
 # MSIM>
 # MSIM> ADD is correct for A = 00000001, B = 11111111: Y = 00000000, CVNZ = 1001
+# MSIM>
+# MSIM> SLL is correct for A = 11110000, B = 00000000: Y = 11100000, CVNZ = 1010
+# MSIM>
+# MSIM> SRL is correct for A = 11110000, B = 00000000: Y = 01111000, CVNZ = 0000
+# MSIM>
+# MSIM> SRA is correct for A = 11110000, B = 00000000: Y = 11111000, CVNZ = 0010
+# MSIM>
+# MSIM> SUB is correct for A = 00000010, B = 00000001: Y = 00000001, CVNZ = 1000
+# MSIM>
+# MSIM> AND is correct for A = 11111111, B = 01010101: Y = 01010101, CVNZ = 0000
+# MSIM>
+# MSIM> OR is correct for A = 10101010, B = 01010101: Y = 11111111, CVNZ = 0010
 # MSIM> 
 # MSIM> Number of tests failed:  0
-# ** Note: $stop    : C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu_test.v(178)
-#    Time: 600 ns  Iteration: 0  Instance: /alu_test
-# Break in Module alu_test at C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu_test.v line 178
-# Simulation Breakpoint: Break in Module alu_test at C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu_test.v line 178
-# MACRO ./ECE2300_run_msim_rtl_verilog.do PAUSED at line 23
-# End time: 14:58:59 on Mar 28,2018, Elapsed time: 0:00:37
+# ** Note: $stop    : C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu_test.v(304)
+#    Time: 1200 ns  Iteration: 0  Instance: /alu_test
+# Break in Module alu_test at C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu_test.v line 304
+# Simulation Breakpoint: Break in Module alu_test at C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu_test.v line 304
+# MACRO ./ECE2300_run_msim_rtl_verilog.do PAUSED at line 28
+# End time: 14:37:21 on Apr 09,2018, Elapsed time: 0:19:40
 # Errors: 0, Warnings: 0

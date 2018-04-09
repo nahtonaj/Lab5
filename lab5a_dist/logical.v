@@ -39,4 +39,7 @@ module logical(A, B, OP, Y, C, V); // add all inputs and outputs inside parenthe
   // overflow detection
   assign V = 1'b0;
   
+  // carryout
+  assign C = 1'b0;
+  
 endmodule

@@ -9,10 +9,10 @@ module alu(A, B, OP, Y, C, V, N, Z);
   output        N;
   output        Z;
   
-  wire [7:0]	 LOGIC_Y, SHIFT_Y, ADD_Y;
+  wire [7:0]	 LOGIC_Y, SHIFT_Y, ADD_Y, Bout;
   wire 			 LOGICAL_OP, LOGIC_C, LOGIC_V;
   wire 			 SHIFT_LA, SHIFT_LR, SHIFT_C, SHIFT_V;
-  wire			 CISEL, CI, BSEL; 
+  wire			 CISEL, CI, BSEL;
   wire			 ADD_C, ADD_V;
   wire [1:0]	 OSEL;
   
@@ -22,7 +22,7 @@ module alu(A, B, OP, Y, C, V, N, Z);
  
 	adder a(
 		.A(A),
-		.B(B),
+		.B(Bout),
 		.CI(CI),
 		.Y(ADD_Y), 
 		.V(ADD_V),
@@ -57,9 +57,12 @@ module alu(A, B, OP, Y, C, V, N, Z);
 		.LOGICAL_OP(LOGICAL_OP)
 	);
 	
-	muxCI mCI(
+	muxADD mADD(
 		.CISEL(CISEL),
-		.CIout(CI)
+		.CIout(CI),
+		.BSEL(BSEL),
+		.Bout(Bout),
+		.B(B)
 	);
 	
 	muxOSEL mO(

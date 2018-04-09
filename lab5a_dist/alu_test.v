@@ -166,7 +166,133 @@ module alu_test();
 
     numTestsFailed = numTestsFailed + currentTestFailed;
 	 
-    
+    // 11110000 shift left, CVNZ=1010
+	 A = 8'b11110000;
+	 B = 8'b00000000;
+	 
+	 // SLL code = 100
+	 OP = 3'b100;
+	 
+	 #100
+	 
+	 $display("MSIM>");
+    if(Y == 8'b11100000 && C == 1'b1 && V == 1'b0 && N == 1'b1 && Z == 1'b0) begin
+      $display("MSIM> SLL is correct for A = %8b, B = %8b: Y = %8b, CVNZ = %1b%1b%1b%1b", A, B, Y, C, V, N, Z);
+    end
+    else begin
+      // note that we have to fill in the expected values by hand here, so we can make sure what our outputs should have been
+      $display("MSIM> ERROR: SLL is incorrect for A = %8b, B = %8b: Y = %8b (should be 11100000), CVNZ = %1b%1b%1b%1b (should be 1010)", A, B, Y, C, V, N, Z);
+      currentTestFailed = 1;
+    end
+
+    numTestsFailed = numTestsFailed + currentTestFailed;
+	 
+	 // 11110000 logical shift right, CVNZ=0000
+	 A = 8'b11110000;
+	 B = 8'b00000000;
+	 
+	 // SRL code = 011
+	 OP = 3'b011;
+	 
+	 #100
+	 
+	 $display("MSIM>");
+    if(Y == 8'b01111000 && C == 1'b0 && V == 1'b0 && N == 1'b0 && Z == 1'b0) begin
+      $display("MSIM> SRL is correct for A = %8b, B = %8b: Y = %8b, CVNZ = %1b%1b%1b%1b", A, B, Y, C, V, N, Z);
+    end
+    else begin
+      // note that we have to fill in the expected values by hand here, so we can make sure what our outputs should have been
+      $display("MSIM> ERROR: SRL is incorrect for A = %8b, B = %8b: Y = %8b (should be 01111000), CVNZ = %1b%1b%1b%1b (should be 0000)", A, B, Y, C, V, N, Z);
+      currentTestFailed = 1;
+    end
+	 
+	 numTestsFailed = numTestsFailed + currentTestFailed;
+	 
+	 // 11110000 arithmetic shift right, CVNZ=0010
+	 A = 8'b11110000;
+	 B = 8'b00000000;
+	 
+	 // SRA code = 010
+	 OP = 3'b010;
+	 
+	 #100
+	 
+	 $display("MSIM>");
+    if(Y == 8'b11111000 && C == 1'b0 && V == 1'b0 && N == 1'b1 && Z == 1'b0) begin
+      $display("MSIM> SRA is correct for A = %8b, B = %8b: Y = %8b, CVNZ = %1b%1b%1b%1b", A, B, Y, C, V, N, Z);
+    end
+    else begin
+      // note that we have to fill in the expected values by hand here, so we can make sure what our outputs should have been
+      $display("MSIM> ERROR: SRA is incorrect for A = %8b, B = %8b: Y = %8b (should be 11111000), CVNZ = %1b%1b%1b%1b (should be 0010)", A, B, Y, C, V, N, Z);
+      currentTestFailed = 1;
+    end
+
+    numTestsFailed = numTestsFailed + currentTestFailed;
+	 
+	 // 2 - 1 subtraction, CVNZ=1000
+	 A = 8'b00000010;
+	 B = 8'b00000001;
+	 
+	 // SUB code = 001
+	 OP = 3'b001;
+	 
+	 #100
+	 
+	 $display("MSIM>");
+    if(Y == 8'b00000001 && C == 1'b1 && V == 1'b0 && N == 1'b0 && Z == 1'b0) begin
+      $display("MSIM> SUB is correct for A = %8b, B = %8b: Y = %8b, CVNZ = %1b%1b%1b%1b", A, B, Y, C, V, N, Z);
+    end
+    else begin
+      // note that we have to fill in the expected values by hand here, so we can make sure what our outputs should have been
+      $display("MSIM> ERROR: SUB is incorrect for A = %8b, B = %8b: Y = %8b (should be 00000001), CVNZ = %1b%1b%1b%1b (should be 1000)", A, B, Y, C, V, N, Z);
+      currentTestFailed = 1;
+    end
+
+    numTestsFailed = numTestsFailed + currentTestFailed;
+	 
+	 // 11111111 AND 01010101, CVNZ=0000
+	 A = 8'b11111111;
+	 B = 8'b01010101;
+	 
+	 // AND code = 101
+	 OP = 3'b101;
+	 
+	 #100
+	 
+	 $display("MSIM>");
+    if(Y == 8'b01010101 && C == 1'b0 && V == 1'b0 && N == 1'b0 && Z == 1'b0) begin
+      $display("MSIM> AND is correct for A = %8b, B = %8b: Y = %8b, CVNZ = %1b%1b%1b%1b", A, B, Y, C, V, N, Z);
+    end
+    else begin
+      // note that we have to fill in the expected values by hand here, so we can make sure what our outputs should have been
+      $display("MSIM> ERROR: AND is incorrect for A = %8b, B = %8b: Y = %8b (should be b01010101), CVNZ = %1b%1b%1b%1b (should be 0000)", A, B, Y, C, V, N, Z);
+      currentTestFailed = 1;
+    end
+
+    numTestsFailed = numTestsFailed + currentTestFailed;
+	 
+	 // 10101010 OR 01010101, CVNZ=0010
+	 A = 8'b10101010;
+	 B = 8'b01010101;
+	 
+	 // OR code = 110
+	 OP = 3'b110;
+	 
+	 #100
+	 
+	 $display("MSIM>");
+    if(Y == 8'b11111111 && C == 1'b0 && V == 1'b0 && N == 1'b1 && Z == 1'b0) begin
+      $display("MSIM> OR is correct for A = %8b, B = %8b: Y = %8b, CVNZ = %1b%1b%1b%1b", A, B, Y, C, V, N, Z);
+    end
+    else begin
+      // note that we have to fill in the expected values by hand here, so we can make sure what our outputs should have been
+      $display("MSIM> ERROR: OR is incorrect for A = %8b, B = %8b: Y = %8b (should be 11111111), CVNZ = %1b%1b%1b%1b (should be 0010)", A, B, Y, C, V, N, Z);
+      currentTestFailed = 1;
+    end
+
+    numTestsFailed = numTestsFailed + currentTestFailed;
+	 
+	 
     // END TEST CASES
     
     // print final score

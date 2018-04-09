@@ -5,15 +5,20 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -vlog01compat -work work +incdir+C:/Users/gao-p/Google\ Drive/Cornell\ Notebooks/ECE2300/Lab5/lab5a_dist {C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/dual_reg_in.v}
-vlog -vlog01compat -work work +incdir+C:/Users/gao-p/Google\ Drive/Cornell\ Notebooks/ECE2300/Lab5/lab5a_dist {C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu.v}
-vlog -vlog01compat -work work +incdir+C:/Users/gao-p/Google\ Drive/Cornell\ Notebooks/ECE2300/Lab5/lab5a_dist {C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/adder.v}
-vlog -vlog01compat -work work +incdir+C:/Users/gao-p/Google\ Drive/Cornell\ Notebooks/ECE2300/Lab5/lab5a_dist {C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/hex_to_seven_seg.v}
-vlog -vlog01compat -work work +incdir+C:/Users/gao-p/Google\ Drive/Cornell\ Notebooks/ECE2300/Lab5/lab5a_dist {C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu_top.v}
-vlog -vlog01compat -work work +incdir+C:/Users/gao-p/Google\ Drive/Cornell\ Notebooks/ECE2300/Lab5/lab5a_dist {C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/opsel.v}
-vlog -vlog01compat -work work +incdir+C:/Users/gao-p/Google\ Drive/Cornell\ Notebooks/ECE2300/Lab5/lab5a_dist {C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/full.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/dual_reg_in.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/logical.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/adder.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/hex_to_seven_seg.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/shifter.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/control.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu_top.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/opsel.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/full.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/muxOSEL.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/muxADD.v}
 
-vlog -vlog01compat -work work +incdir+C:/Users/gao-p/Google\ Drive/Cornell\ Notebooks/ECE2300/Lab5/lab5a_dist {C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu_test.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu_test.v}
 
 vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  alu_test
 

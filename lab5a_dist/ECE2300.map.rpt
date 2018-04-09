@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ECE2300
-Mon Apr 09 01:09:54 2018
+Mon Apr 09 14:18:32 2018
 Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
 
 
@@ -10,8 +10,17 @@ Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
   2. Analysis & Synthesis Summary
   3. Analysis & Synthesis Settings
   4. Parallel Compilation
-  5. Analysis & Synthesis Messages
-  6. Analysis & Synthesis Suppressed Messages
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 10. Parameter Settings for User Entity Instance: alu:theALU|control:c
+ 11. Parameter Settings for User Entity Instance: alu:theALU|muxOSEL:mO
+ 12. Post-Synthesis Netlist Statistics for Top Partition
+ 13. Elapsed Time Per Partition
+ 14. Analysis & Synthesis Messages
+ 15. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -35,22 +44,27 @@ agreement for further details.
 
 
 
-+--------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                             ;
-+-----------------------------+--------------------------------------------+
-; Analysis & Synthesis Status ; Failed - Mon Apr 09 01:09:54 2018          ;
-; Quartus II 64-Bit Version   ; 15.0.0 Build 145 04/22/2015 SJ Web Edition ;
-; Revision Name               ; ECE2300                                    ;
-; Top-level Entity Name       ; alu_top                                    ;
-; Family                      ; Cyclone V                                  ;
-; Logic utilization (in ALMs) ; N/A until Partition Merge                  ;
-; Total registers             ; N/A until Partition Merge                  ;
-; Total pins                  ; N/A until Partition Merge                  ;
-; Total virtual pins          ; N/A until Partition Merge                  ;
-; Total block memory bits     ; N/A until Partition Merge                  ;
-; Total PLLs                  ; N/A until Partition Merge                  ;
-; Total DLLs                  ; N/A until Partition Merge                  ;
-+-----------------------------+--------------------------------------------+
++------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                 ;
++---------------------------------+--------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Mon Apr 09 14:18:32 2018      ;
+; Quartus II 64-Bit Version       ; 15.0.0 Build 145 04/22/2015 SJ Web Edition ;
+; Revision Name                   ; ECE2300                                    ;
+; Top-level Entity Name           ; alu_top                                    ;
+; Family                          ; Cyclone V                                  ;
+; Logic utilization (in ALMs)     ; N/A                                        ;
+; Total registers                 ; 20                                         ;
+; Total pins                      ; 67                                         ;
+; Total virtual pins              ; 0                                          ;
+; Total block memory bits         ; 0                                          ;
+; Total DSP Blocks                ; 0                                          ;
+; Total HSSI RX PCSs              ; 0                                          ;
+; Total HSSI PMA RX Deserializers ; 0                                          ;
+; Total HSSI TX PCSs              ; 0                                          ;
+; Total HSSI PMA TX Serializers   ; 0                                          ;
+; Total PLLs                      ; 0                                          ;
+; Total DLLs                      ; 0                                          ;
++---------------------------------+--------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
@@ -141,15 +155,183 @@ agreement for further details.
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
-+-------------------------------------+
-; Parallel Compilation                ;
-+----------------------------+--------+
-; Processors                 ; Number ;
-+----------------------------+--------+
-; Number detected on machine ; 4      ;
-; Maximum allowed            ; 1      ;
-+----------------------------+--------+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ;   0.0%      ;
++----------------------------+-------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                               ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                 ; Library ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------+---------+
+; dual_reg_in.v                    ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/dual_reg_in.v      ;         ;
+; logical.v                        ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/logical.v          ;         ;
+; alu.v                            ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu.v              ;         ;
+; adder.v                          ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/adder.v            ;         ;
+; hex_to_seven_seg.v               ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/hex_to_seven_seg.v ;         ;
+; shifter.v                        ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/shifter.v          ;         ;
+; control.v                        ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/control.v          ;         ;
+; alu_top.v                        ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu_top.v          ;         ;
+; opsel.v                          ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/opsel.v            ;         ;
+; full.v                           ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/full.v             ;         ;
+; muxOSEL.v                        ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/muxOSEL.v          ;         ;
+; muxADD.v                         ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/muxADD.v           ;         ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------+---------+
+
+
++---------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                   ;
++---------------------------------------------+-----------------+
+; Resource                                    ; Usage           ;
++---------------------------------------------+-----------------+
+; Estimate of Logic utilization (ALMs needed) ; 55              ;
+;                                             ;                 ;
+; Combinational ALUT usage for logic          ; 90              ;
+;     -- 7 input functions                    ; 3               ;
+;     -- 6 input functions                    ; 14              ;
+;     -- 5 input functions                    ; 12              ;
+;     -- 4 input functions                    ; 52              ;
+;     -- <=3 input functions                  ; 9               ;
+;                                             ;                 ;
+; Dedicated logic registers                   ; 20              ;
+;                                             ;                 ;
+; I/O pins                                    ; 67              ;
+;                                             ;                 ;
+; Total DSP Blocks                            ; 0               ;
+;                                             ;                 ;
+; Maximum fan-out node                        ; opsel:sel|OP[1] ;
+; Maximum fan-out                             ; 30              ;
+; Total fan-out                               ; 572             ;
+; Average fan-out                             ; 2.34            ;
++---------------------------------------------+-----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                  ;
++------------------------------------+-------------------+--------------+-------------------+------------+------+--------------+----------------------------------------+--------------+
+; Compilation Hierarchy Node         ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                    ; Library Name ;
++------------------------------------+-------------------+--------------+-------------------+------------+------+--------------+----------------------------------------+--------------+
+; |alu_top                           ; 90 (0)            ; 20 (0)       ; 0                 ; 0          ; 67   ; 0            ; |alu_top                               ; work         ;
+;    |alu:theALU|                    ; 42 (2)            ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|alu:theALU                    ; work         ;
+;       |adder:a|                    ; 11 (0)            ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|alu:theALU|adder:a            ; work         ;
+;          |full:five|               ; 2 (2)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|alu:theALU|adder:a|full:five  ; work         ;
+;          |full:four|               ; 1 (1)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|alu:theALU|adder:a|full:four  ; work         ;
+;          |full:seven|              ; 2 (2)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|alu:theALU|adder:a|full:seven ; work         ;
+;          |full:three|              ; 3 (3)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|alu:theALU|adder:a|full:three ; work         ;
+;          |full:two|                ; 2 (2)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|alu:theALU|adder:a|full:two   ; work         ;
+;          |full:zero|               ; 1 (1)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|alu:theALU|adder:a|full:zero  ; work         ;
+;       |muxADD:mADD|                ; 6 (6)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|alu:theALU|muxADD:mADD        ; work         ;
+;       |muxOSEL:mO|                 ; 23 (23)           ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|alu:theALU|muxOSEL:mO         ; work         ;
+;    |dual_reg_in:inputs|            ; 2 (2)             ; 16 (16)      ; 0                 ; 0          ; 0    ; 0            ; |alu_top|dual_reg_in:inputs            ; work         ;
+;    |hex_to_seven_seg:lowerBitsOfA| ; 7 (7)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|hex_to_seven_seg:lowerBitsOfA ; work         ;
+;    |hex_to_seven_seg:lowerBitsOfB| ; 7 (7)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|hex_to_seven_seg:lowerBitsOfB ; work         ;
+;    |hex_to_seven_seg:lowerBitsOfY| ; 7 (7)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|hex_to_seven_seg:lowerBitsOfY ; work         ;
+;    |hex_to_seven_seg:upperBitsOfA| ; 7 (7)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|hex_to_seven_seg:upperBitsOfA ; work         ;
+;    |hex_to_seven_seg:upperBitsOfB| ; 7 (7)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|hex_to_seven_seg:upperBitsOfB ; work         ;
+;    |hex_to_seven_seg:upperBitsOfY| ; 7 (7)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|hex_to_seven_seg:upperBitsOfY ; work         ;
+;    |opsel:sel|                     ; 4 (4)             ; 4 (4)        ; 0                 ; 0          ; 0    ; 0            ; |alu_top|opsel:sel                     ; work         ;
++------------------------------------+-------------------+--------------+-------------------+------------+------+--------------+----------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 20    ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 19    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                    ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output          ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------+
+; 5:1                ; 8 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; No         ; |alu_top|alu:theALU|muxOSEL:mO|Y[7] ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------+
+
+
++-------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: alu:theALU|control:c ;
++----------------+-------+------------------------------------------+
+; Parameter Name ; Value ; Type                                     ;
++----------------+-------+------------------------------------------+
+; ADD            ; 000   ; Unsigned Binary                          ;
+; SUB            ; 001   ; Unsigned Binary                          ;
+; SRA            ; 010   ; Unsigned Binary                          ;
+; SRL            ; 011   ; Unsigned Binary                          ;
+; SLL            ; 100   ; Unsigned Binary                          ;
+; AND            ; 101   ; Unsigned Binary                          ;
+; OR             ; 110   ; Unsigned Binary                          ;
++----------------+-------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: alu:theALU|muxOSEL:mO ;
++----------------+-------+-------------------------------------------+
+; Parameter Name ; Value ; Type                                      ;
++----------------+-------+-------------------------------------------+
+; ADD            ; 00    ; Unsigned Binary                           ;
+; SHIFT          ; 01    ; Unsigned Binary                           ;
+; LOGIC          ; 10    ; Unsigned Binary                           ;
++----------------+-------+-------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_ff             ; 20                          ;
+;     ENA               ; 19                          ;
+;     plain             ; 1                           ;
+; arriav_lcell_comb     ; 98                          ;
+;     extend            ; 3                           ;
+;         7 data inputs ; 3                           ;
+;     normal            ; 95                          ;
+;         0 data inputs ; 1                           ;
+;         1 data inputs ; 7                           ;
+;         2 data inputs ; 3                           ;
+;         3 data inputs ; 6                           ;
+;         4 data inputs ; 52                          ;
+;         5 data inputs ; 12                          ;
+;         6 data inputs ; 14                          ;
+; boundary_port         ; 67                          ;
+;                       ;                             ;
+; Max LUT depth         ; 6.00                        ;
+; Average LUT depth     ; 3.50                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:01     ;
++----------------+--------------+
 
 
 +-------------------------------+
@@ -158,25 +340,21 @@ Parallel compilation was disabled, but you have multiple processors available. E
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
-    Info: Processing started: Mon Apr 09 01:09:27 2018
+    Info: Processing started: Mon Apr 09 14:18:16 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab5a -c ECE2300
-Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
 Info (12021): Found 1 design units, including 1 entities, in source file dual_reg_in.v
     Info (12023): Found entity 1: dual_reg_in
 Info (12021): Found 1 design units, including 1 entities, in source file logical.v
     Info (12023): Found entity 1: logical
-Error (10170): Verilog HDL syntax error at alu.v(81) near text "assign";  expecting ";" File: C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu.v Line: 81
-Error (10112): Ignored design unit "alu" at alu.v(1) due to previous errors File: C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu.v Line: 1
-Info (12021): Found 0 design units, including 0 entities, in source file alu.v
+Info (12021): Found 1 design units, including 1 entities, in source file alu.v
+    Info (12023): Found entity 1: alu
 Info (12021): Found 1 design units, including 1 entities, in source file adder.v
     Info (12023): Found entity 1: adder
 Info (12021): Found 1 design units, including 1 entities, in source file hex_to_seven_seg.v
     Info (12023): Found entity 1: hex_to_seven_seg
-Info (12021): Found 1 design units, including 1 entities, in source file muxci.v
-    Info (12023): Found entity 1: muxCI
-Error (10170): Verilog HDL syntax error at shifter.v(9) near text "output";  expecting ";" File: C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/shifter.v Line: 9
-Error (10112): Ignored design unit "shifter" at shifter.v(1) due to previous errors File: C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/shifter.v Line: 1
-Info (12021): Found 0 design units, including 0 entities, in source file shifter.v
+Info (12021): Found 1 design units, including 1 entities, in source file shifter.v
+    Info (12023): Found entity 1: shifter
 Info (12021): Found 1 design units, including 1 entities, in source file control.v
     Info (12023): Found entity 1: control
 Info (12021): Found 1 design units, including 1 entities, in source file alu_top.v
@@ -187,17 +365,48 @@ Info (12021): Found 1 design units, including 1 entities, in source file full.v
     Info (12023): Found entity 1: full
 Info (12021): Found 1 design units, including 1 entities, in source file muxosel.v
     Info (12023): Found entity 1: muxOSEL
-Info (144001): Generated suppressed messages file C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/ECE2300.map.smsg
-Error: Quartus II 64-Bit Analysis & Synthesis was unsuccessful. 4 errors, 1 warning
-    Error: Peak virtual memory: 752 megabytes
-    Error: Processing ended: Mon Apr 09 01:09:55 2018
-    Error: Elapsed time: 00:00:28
-    Error: Total CPU time (on all processors): 00:00:54
+Info (12021): Found 1 design units, including 1 entities, in source file muxadd.v
+    Info (12023): Found entity 1: muxADD
+Info (12127): Elaborating entity "alu_top" for the top level hierarchy
+Info (12128): Elaborating entity "alu" for hierarchy "alu:theALU"
+Info (12128): Elaborating entity "adder" for hierarchy "alu:theALU|adder:a"
+Info (12128): Elaborating entity "full" for hierarchy "alu:theALU|adder:a|full:zero"
+Info (12128): Elaborating entity "shifter" for hierarchy "alu:theALU|shifter:s"
+Info (12128): Elaborating entity "logical" for hierarchy "alu:theALU|logical:l"
+Info (12128): Elaborating entity "control" for hierarchy "alu:theALU|control:c"
+Info (12128): Elaborating entity "muxADD" for hierarchy "alu:theALU|muxADD:mADD"
+Info (12128): Elaborating entity "muxOSEL" for hierarchy "alu:theALU|muxOSEL:mO"
+Info (12128): Elaborating entity "dual_reg_in" for hierarchy "dual_reg_in:inputs"
+Info (12128): Elaborating entity "opsel" for hierarchy "opsel:sel"
+Info (12128): Elaborating entity "hex_to_seven_seg" for hierarchy "hex_to_seven_seg:upperBitsOfA"
+Info (13014): Ignored 24 buffer(s)
+    Info (13019): Ignored 24 SOFT buffer(s)
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "LEDR[3]" is stuck at GND
+    Warning (13410): Pin "LEDR[8]" is stuck at GND
+    Warning (13410): Pin "LEDR[9]" is stuck at GND
+Info (286030): Timing-Driven Synthesis is running
+Info (144001): Generated suppressed messages file C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/ECE2300.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 3 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "SW[9]"
+    Warning (15610): No output dependent on input pin "KEY[1]"
+    Warning (15610): No output dependent on input pin "KEY[2]"
+Info (21057): Implemented 174 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 15 input pins
+    Info (21059): Implemented 52 output pins
+    Info (21061): Implemented 107 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 8 warnings
+    Info: Peak virtual memory: 783 megabytes
+    Info: Processing ended: Mon Apr 09 14:18:32 2018
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:34
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/ECE2300.map.smsg.
+The suppressed messages can be found in C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/ECE2300.map.smsg.
 
 

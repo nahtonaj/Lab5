@@ -7,88 +7,109 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/simulation/modelsim
+Z0 dC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/simulation/modelsim
 vadder
-Z1 !s110 1522263500
+Z1 !s110 1523297859
 !i10b 1
-!s100 BZEMR[C5A2VaKlTllKd@G3
-Ih?0b=jT4bK>];I1PMBaX10
+!s100 1L2djRU22NfDdz0jaaL]W1
+Ioj:Bg0I:SO7jCDYhT4S^[2
 Z2 V`JN@9S9cnhjKRR_L]QIcM3
 R0
-Z3 w1522262834
-8C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/adder.v
-FC:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/adder.v
+Z3 w1523294555
+8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/adder.v
+FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/adder.v
 L0 1
 Z4 OV;L;10.3d;59
 r1
 !s85 0
 31
-!s108 1522263500.575000
-!s107 C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/adder.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist|C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/adder.v|
+!s108 1523297859.661000
+!s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/adder.v|
 !i113 1
 Z5 o-vlog01compat -work work
-Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist}
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist
 valu
 R1
 !i10b 1
-!s100 FfAFSUPK`jW2dR_bm2mE[1
-IQ>hAz8EnA4klQT0AiGT>c3
+!s100 JR9:IeeD^HO[2l1OP_HZe0
+Idbj>oz0HfJ^ngi7ECb>L;2
 R2
 R0
-w1522184601
-8C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu.v
-FC:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu.v
+w1523297646
+8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu.v
+FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu.v
 L0 1
 R4
 r1
 !s85 0
 31
-!s108 1522263500.306000
-!s107 C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist|C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu.v|
+!s108 1523297859.536000
+!s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu.v|
 !i113 1
 R5
 R6
 valu_test
-!s110 1522263502
+Z7 !s110 1523297860
 !i10b 1
-!s100 [YEOG_]b4Oc]67Vh`T1=e3
-Im[O0mEz:LSGNF:Y`gcJcB1
+!s100 PX5i1DSnekjhE<P=b^`jj0
+I?H1V5BzPjhgCaHhDV9`?>2
 R2
 R0
-w1522263435
-8C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu_test.v
-FC:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu_test.v
+w1523297802
+8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu_test.v
+FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu_test.v
 L0 9
 R4
 r1
 !s85 0
 31
-!s108 1522263501.950000
-!s107 C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu_test.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist|C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu_test.v|
+!s108 1523297860.942000
+!s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu_test.v|
 !i113 1
 R5
 R6
 valu_top
-Z7 !s110 1522263501
+R7
 !i10b 1
 !s100 i:oN^_Z3JUW]]`DO75H`M0
-I;7M5>UMlVzS_nL9R;A]ML3
+IZ@VA88bnR6MBk`5100EZQ1
 R2
 R0
-Z8 w1445651362
-8C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu_top.v
-FC:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu_top.v
+Z8 w1522089790
+8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu_top.v
+FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu_top.v
 L0 1
 R4
 r1
 !s85 0
 31
-!s108 1522263501.098000
-!s107 C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu_top.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist|C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/alu_top.v|
+!s108 1523297860.239000
+!s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/alu_top.v|
+!i113 1
+R5
+R6
+vcontrol
+R7
+!i10b 1
+!s100 bLG1LWCB[B`nCd6=@Na582
+I3oGkzaSUQf49l2iL4=mc;1
+R2
+R0
+w1523297116
+8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/control.v
+FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/control.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1523297860.098000
+!s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/control.v|
 !i113 1
 R5
 R6
@@ -96,20 +117,20 @@ vdual_reg_in
 R1
 !i10b 1
 !s100 >ILMM3dKUFcXh=Y3m8PV<2
-Ii_CDoX^Z5F6`6:Bj_2jPz3
+I:UHIj<22@cz9NPH7:ah[N0
 R2
 R0
 R8
-8C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/dual_reg_in.v
-FC:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/dual_reg_in.v
+8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/dual_reg_in.v
+FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/dual_reg_in.v
 L0 1
 R4
 r1
 !s85 0
 31
-!s108 1522263500.012000
-!s107 C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/dual_reg_in.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist|C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/dual_reg_in.v|
+!s108 1523297859.270000
+!s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/dual_reg_in.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/dual_reg_in.v|
 !i113 1
 R5
 R6
@@ -117,20 +138,20 @@ vfull
 R7
 !i10b 1
 !s100 nLeSJ_IIBzHQ80[f_c>9O2
-I5O`<>c64WMB=_EO6BD<4c1
+Il?iJGWoRQ5`:EVOE1K2<E0
 R2
 R0
-R3
-8C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/full.v
-FC:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/full.v
+w1522217129
+8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/full.v
+FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/full.v
 L0 1
 R4
 r1
 !s85 0
 31
-!s108 1522263501.691000
-!s107 C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/full.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist|C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/full.v|
+!s108 1523297860.520000
+!s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/full.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/full.v|
 !i113 1
 R5
 R6
@@ -138,41 +159,127 @@ vhex_to_seven_seg
 R1
 !i10b 1
 !s100 lmbeBMe^3FN8Ah=cfj3gV0
-I@R0FkYjiaL`MOkmn72`K^0
+IK4B_j<B3QmLFVbG[RQhaV1
 R2
 R0
 R8
-8C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/hex_to_seven_seg.v
-FC:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/hex_to_seven_seg.v
+8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/hex_to_seven_seg.v
+FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/hex_to_seven_seg.v
 L0 1
 R4
 r1
 !s85 0
 31
-!s108 1522263500.804000
-!s107 C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/hex_to_seven_seg.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist|C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/hex_to_seven_seg.v|
+!s108 1523297859.801000
+!s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/hex_to_seven_seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/hex_to_seven_seg.v|
 !i113 1
 R5
 R6
+vlogical
+R1
+!i10b 1
+!s100 =5T@VhLV6VXb=RR1=eDg@0
+IdDQOC2MFa3bazNAFVNA181
+R2
+R0
+w1523295949
+8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/logical.v
+FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/logical.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1523297859.411000
+!s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/logical.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/logical.v|
+!i113 1
+R5
+R6
+vmuxADD
+R7
+!i10b 1
+!s100 K2W;82;XfM6Hzegn@ki]D1
+I:CM?:[zL`ck^;^QVIO5_h3
+R2
+R0
+w1523297312
+8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/muxADD.v
+FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/muxADD.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1523297860.801000
+!s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/muxADD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/muxADD.v|
+!i113 1
+R5
+R6
+nmux@a@d@d
+vmuxOSEL
+R7
+!i10b 1
+!s100 e80VfO40`?@mhTFPhP7AR1
+I3n5[8nDfeCPHb@loehI1l3
+R2
+R0
+R3
+8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/muxOSEL.v
+FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/muxOSEL.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1523297860.661000
+!s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/muxOSEL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/muxOSEL.v|
+!i113 1
+R5
+R6
+nmux@o@s@e@l
 vopsel
 R7
 !i10b 1
 !s100 `VS_Bi:Li[il`aj>N]SHc3
-I3;mUom5ILdD>_1Y1bzQSZ0
+IB3EoUgNdNc^Y4HBJch<lN2
 R2
 R0
 R8
-8C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/opsel.v
-FC:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/opsel.v
+8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/opsel.v
+FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/opsel.v
 L0 1
 R4
 r1
 !s85 0
 31
-!s108 1522263501.418000
-!s107 C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/opsel.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist|C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5a_dist/opsel.v|
+!s108 1523297860.379000
+!s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/opsel.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/opsel.v|
+!i113 1
+R5
+R6
+vshifter
+R1
+!i10b 1
+!s100 3;BXPiZDD:e;4886k<3jc0
+Iimm>[ZLW]=;ogI:`2bRZ61
+R2
+R0
+R3
+8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/shifter.v
+FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/shifter.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1523297859.957000
+!s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/shifter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5a_dist/shifter.v|
 !i113 1
 R5
 R6
