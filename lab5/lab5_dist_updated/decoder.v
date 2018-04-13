@@ -56,39 +56,44 @@ always @(*) begin
 			NOP: 
 			begin
 				DR = RD; SA = RS; SB = RT; 
-				LD = 1'b0; MW = 1'b0;
+				MB = 1'b0; MD = 1'b0; LD = 1'b0; MW = 1'b0;
 				FS = FUNCT;
 			end
 			LB: 
 			begin 
-				DR = RT; SA = RS; 
+				DR = RT; SA = RS; SB = 3'b000; //don't care
 				MB = 1'b1; MD = 1'b1; LD = 1'b1; MW = 1'b0;
+				FS = 3'b000; //ADD IMM to RS
 			end
 			SB_OP: 
 			begin 
-				DR = RT; SA = RS;
-				MB = 1'b1; LD = 1'b0; MW = 1'b1;
+				DR = RT; SA = RS; SB = 3'b000; //don't care
+				MB = 1'b1; MD = 1'b1; LD = 1'b0; MW = 1'b1;
+				FS = 3'b000; //ADD IMM to RS
 			end
 			ADDI: 
 			begin 
-				DR = RT; SA = RS;
+				DR = RT; SA = RS; SB = 3'b000; //don't care
 				MB = 1'b1; MD = 1'b0; LD = 1'b1; MW = 1'b0;
+				FS = 3'b000; //ADD IMM to RS
 			end
 			ANDI: 
 			begin 
-				DR = RT; SA = RS;
+				DR = RT; SA = RS; SB = 3'b000; //don't care
 				MB = 1'b1; MD = 1'b0; LD = 1'b1; MW = 1'b0;
+				FS = 3'b101; //AND IMM and RS
 			end
 			ORI: 
 			begin 
-				DR = RT; SA = RS;
+				DR = RT; SA = RS; SB = 3'b000; //don't care
 				MB = 1'b1; MD = 1'b0; LD = 1'b1; MW = 1'b0;
+				FS = 3'b110; //OR IMM and RS
 			end
 			default: 
 			begin 
 				DR = RD; SA = RS; SB = RT;
 				MB = 1'b0; MD = 1'b0; LD = 1'b1; MW = 1'b0;
-				FS = FUNCT;
+				FS = FUNCT; //Function for R-type instructions
 			end
 		endcase
 end

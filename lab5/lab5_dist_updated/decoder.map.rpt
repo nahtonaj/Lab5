@@ -1,5 +1,5 @@
 Analysis & Synthesis report for decoder
-Mon Apr 09 23:41:48 2018
+Thu Apr 12 20:27:44 2018
 Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
 
 
@@ -13,8 +13,8 @@ Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. User-Specified and Inferred Latches
-  9. General Register Statistics
+  8. General Register Statistics
+  9. Multiplexer Restructuring Statistics (Restructuring Performed)
  10. Parameter Settings for User Entity Instance: Top-level Entity: |decoder
  11. Post-Synthesis Netlist Statistics for Top Partition
  12. Elapsed Time Per Partition
@@ -45,7 +45,7 @@ agreement for further details.
 +------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                 ;
 +---------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Apr 09 23:41:48 2018      ;
+; Analysis & Synthesis Status     ; Successful - Thu Apr 12 20:27:44 2018      ;
 ; Quartus II 64-Bit Version       ; 15.0.0 Build 145 04/22/2015 SJ Web Edition ;
 ; Revision Name                   ; decoder                                    ;
 ; Top-level Entity Name           ; decoder                                    ;
@@ -153,30 +153,24 @@ agreement for further details.
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 4           ;
-; Maximum allowed            ; 2           ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.0%      ;
-+----------------------------+-------------+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                  ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                    ; Library ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------+---------+
-; decoder.v                        ; yes             ; User Verilog HDL File  ; C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder.v ;         ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                              ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                ; Library ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------------+---------+
+; decoder.v                        ; yes             ; User Verilog HDL File  ; C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder.v ;         ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -184,14 +178,14 @@ agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 8         ;
+; Estimate of Logic utilization (ALMs needed) ; 7         ;
 ;                                             ;           ;
-; Combinational ALUT usage for logic          ; 16        ;
+; Combinational ALUT usage for logic          ; 13        ;
 ;     -- 7 input functions                    ; 0         ;
 ;     -- 6 input functions                    ; 0         ;
-;     -- 5 input functions                    ; 0         ;
-;     -- 4 input functions                    ; 4         ;
-;     -- <=3 input functions                  ; 12        ;
+;     -- 5 input functions                    ; 3         ;
+;     -- 4 input functions                    ; 3         ;
+;     -- <=3 input functions                  ; 7         ;
 ;                                             ;           ;
 ; Dedicated logic registers                   ; 0         ;
 ;                                             ;           ;
@@ -200,9 +194,9 @@ agreement for further details.
 ; Total DSP Blocks                            ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; WideOr0~0 ;
-; Maximum fan-out                             ; 10        ;
-; Total fan-out                               ; 115       ;
-; Average fan-out                             ; 1.17      ;
+; Maximum fan-out                             ; 7         ;
+; Total fan-out                               ; 108       ;
+; Average fan-out                             ; 1.14      ;
 +---------------------------------------------+-----------+
 
 
@@ -211,27 +205,9 @@ agreement for further details.
 +----------------------------+-------------------+--------------+-------------------+------------+------+--------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------------+------------+------+--------------+---------------------+--------------+
-; |decoder                   ; 16 (16)           ; 0 (0)        ; 0                 ; 0          ; 41   ; 0            ; |decoder            ; work         ;
+; |decoder                   ; 13 (13)           ; 0 (0)        ; 0                 ; 0          ; 41   ; 0            ; |decoder            ; work         ;
 +----------------------------+-------------------+--------------+-------------------+------------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+---------------------------------------------------------------------------------------------------+
-; User-Specified and Inferred Latches                                                               ;
-+----------------------------------------------------+---------------------+------------------------+
-; Latch Name                                         ; Latch Enable Signal ; Free of Timing Hazards ;
-+----------------------------------------------------+---------------------+------------------------+
-; SB[0]$latch                                        ; WideOr0             ; yes                    ;
-; SB[1]$latch                                        ; WideOr0             ; yes                    ;
-; SB[2]$latch                                        ; WideOr0             ; yes                    ;
-; MB$latch                                           ; Decoder0            ; yes                    ;
-; FS[0]$latch                                        ; WideOr0             ; yes                    ;
-; FS[1]$latch                                        ; WideOr0             ; yes                    ;
-; FS[2]$latch                                        ; WideOr0             ; yes                    ;
-; MD$latch                                           ; MD                  ; yes                    ;
-; Number of user-specified and inferred latches = 8  ;                     ;                        ;
-+----------------------------------------------------+---------------------+------------------------+
-Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
 +------------------------------------------------------+
@@ -247,6 +223,15 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                           ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+; 16:1               ; 3 bits    ; 30 LEs        ; 9 LEs                ; 21 LEs                 ; No         ; |decoder|Mux2              ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
 
 
 +-------------------------------------------------------------------------+
@@ -270,16 +255,18 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 18                          ;
-;     normal            ; 18                          ;
+; arriav_lcell_comb     ; 15                          ;
+;     normal            ; 15                          ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 1                           ;
-;         3 data inputs ; 12                          ;
-;         4 data inputs ; 4                           ;
+;         2 data inputs ; 3                           ;
+;         3 data inputs ; 4                           ;
+;         4 data inputs ; 3                           ;
+;         5 data inputs ; 3                           ;
 ; boundary_port         ; 41                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 2.00                        ;
-; Average LUT depth     ; 1.38                        ;
+; Average LUT depth     ; 1.29                        ;
 +-----------------------+-----------------------------+
 
 
@@ -298,33 +285,18 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
-    Info: Processing started: Mon Apr 09 23:41:32 2018
+    Info: Processing started: Thu Apr 12 20:27:13 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off decoder -c decoder
-Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
+Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file decoder.v
     Info (12023): Found entity 1: decoder
+Warning (10229): Verilog HDL Expression warning at decoder_test.v(201): truncated literal to match 16 bits
 Info (12021): Found 1 design units, including 1 entities, in source file decoder_test.v
     Info (12023): Found entity 1: decoder_test
 Info (12127): Elaborating entity "decoder" for the top level hierarchy
-Warning (10240): Verilog HDL Always Construct warning at decoder.v(48): inferring latch(es) for variable "SB", which holds its previous value in one or more paths through the always construct
-Warning (10240): Verilog HDL Always Construct warning at decoder.v(48): inferring latch(es) for variable "MB", which holds its previous value in one or more paths through the always construct
-Warning (10240): Verilog HDL Always Construct warning at decoder.v(48): inferring latch(es) for variable "MD", which holds its previous value in one or more paths through the always construct
-Warning (10240): Verilog HDL Always Construct warning at decoder.v(48): inferring latch(es) for variable "FS", which holds its previous value in one or more paths through the always construct
 Warning (10034): Output port "BS" at decoder.v(5) has no driver
 Warning (10034): Output port "OFF" at decoder.v(5) has no driver
 Warning (10034): Output port "HALT" at decoder.v(5) has no driver
-Info (10041): Inferred latch for "FS[0]" at decoder.v(48)
-Info (10041): Inferred latch for "FS[1]" at decoder.v(48)
-Info (10041): Inferred latch for "FS[2]" at decoder.v(48)
-Info (10041): Inferred latch for "MD" at decoder.v(48)
-Info (10041): Inferred latch for "MB" at decoder.v(48)
-Info (10041): Inferred latch for "SB[0]" at decoder.v(48)
-Info (10041): Inferred latch for "SB[1]" at decoder.v(48)
-Info (10041): Inferred latch for "SB[2]" at decoder.v(48)
-Warning (13012): Latch MB$latch has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal INST[12]
-Warning (13012): Latch MD$latch has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal INST[12]
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "BS" is stuck at GND
     Warning (13410): Pin "OFF" is stuck at GND
@@ -332,14 +304,14 @@ Warning (13024): Output pins are stuck at VCC or GND
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 57 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 54 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 16 input pins
     Info (21059): Implemented 25 output pins
-    Info (21061): Implemented 16 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 15 warnings
-    Info: Peak virtual memory: 779 megabytes
-    Info: Processing ended: Mon Apr 09 23:41:49 2018
-    Info: Elapsed time: 00:00:17
-    Info: Total CPU time (on all processors): 00:00:36
+    Info (21061): Implemented 13 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 9 warnings
+    Info: Peak virtual memory: 777 megabytes
+    Info: Processing ended: Thu Apr 12 20:27:44 2018
+    Info: Elapsed time: 00:00:31
+    Info: Total CPU time (on all processors): 00:00:50
 
 
