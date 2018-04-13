@@ -14,29 +14,29 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/gao-p/Google\ Drive/Cornell\ Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated {C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 20:31:00 on Apr 12,2018
+# Start time: 20:42:18 on Apr 12,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated" C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder.v 
 # -- Compiling module decoder
 # 
 # Top level modules:
 # 	decoder
-# End time: 20:31:00 on Apr 12,2018, Elapsed time: 0:00:00
+# End time: 20:42:18 on Apr 12,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/gao-p/Google\ Drive/Cornell\ Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated {C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 20:31:00 on Apr 12,2018
+# Start time: 20:42:18 on Apr 12,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated" C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v 
 # -- Compiling module decoder_test
 # 
 # Top level modules:
 # 	decoder_test
-# End time: 20:31:00 on Apr 12,2018, Elapsed time: 0:00:00
+# End time: 20:42:19 on Apr 12,2018, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  decoder_test
 # vsim -gui "+altera" -l msim_transcript -do "decoder_run_msim_rtl_verilog.do" 
-# Start time: 20:31:00 on Apr 12,2018
+# Start time: 20:42:19 on Apr 12,2018
 # Loading work.decoder_test
 # Loading work.decoder
 # ** Warning: (vsim-3017) C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v(34): [TFMPC] - Too few port connections. Expected 13, found 10.
@@ -116,11 +116,59 @@
 # MSIM>   LD  = 1			[ OK ]
 # MSIM>   MW  = 0			[ OK ]
 # MSIM> 
-# MSIM> Prelab 5a Score:  5 /  5
-# ** Note: $stop    : C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v(297)
-#    Time: 600 ns  Iteration: 0  Instance: /decoder_test
-# Break in Module decoder_test at C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v line 297
-# Simulation Breakpoint: Break in Module decoder_test at C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v line 297
+# MSIM> # 5
+# MSIM>  INST = [0111][000][001][000010] (imm)
+# MSIM>   DR  = 001			[ OK ]
+# MSIM>   SA  = 000			[ OK ]
+# MSIM>   SB  = 000			[ OK ]
+# MSIM>   IMM = 000010		[ OK ]
+# MSIM>   MB  = 1			[ OK ]
+# MSIM>   FS  = 110			[ OK ]
+# MSIM>   MD  = 0			[ OK ]
+# MSIM>   LD  = 1			[ OK ]
+# MSIM>   MW  = 0			[ OK ]
+# MSIM> 
+# MSIM> # 6
+# MSIM>  INST = [1111][000][001][010][000] (r2r)
+# MSIM>   DR  = 010			[ OK ]
+# MSIM>   SA  = 000			[ OK ]
+# MSIM>   SB  = 001			[ OK ]
+# MSIM>   IMM = 010000		[ OK ]
+# MSIM>   MB  = 0			[ OK ]
+# MSIM>   FS  = 000			[ OK ]
+# MSIM>   MD  = 0			[ OK ]
+# MSIM>   LD  = 1			[ OK ]
+# MSIM>   MW  = 0			[ OK ]
+# MSIM> 
+# MSIM> # 7
+# MSIM>  INST = [1111][000][001][010][001] (r2r)
+# MSIM>   DR  = 010			[ OK ]
+# MSIM>   SA  = 000			[ OK ]
+# MSIM>   SB  = 001			[ OK ]
+# MSIM>   IMM = 010001		[ OK ]
+# MSIM>   MB  = 0			[ OK ]
+# MSIM>   FS  = 001			[ OK ]
+# MSIM>   MD  = 0			[ OK ]
+# MSIM>   LD  = 1			[ OK ]
+# MSIM>   MW  = 0			[ OK ]
+# MSIM> 
+# MSIM> # 8
+# MSIM>  INST = [1111][000][001][010][010] (r2r)
+# MSIM>   DR  = 010			[ OK ]
+# MSIM>   SA  = 000			[ OK ]
+# MSIM>   SB  = 001			[FAIL]
+# MSIM>   IMM = 010010		[FAIL]
+# MSIM>   MB  = 0			[ OK ]
+# MSIM>   FS  = 010			[ OK ]
+# MSIM>   MD  = 0			[ OK ]
+# MSIM>   LD  = 1			[ OK ]
+# MSIM>   MW  = 0			[ OK ]
+# MSIM> 
+# MSIM> Prelab 5a Score:  8 /  9
+# ** Note: $stop    : C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v(475)
+#    Time: 1 us  Iteration: 0  Instance: /decoder_test
+# Break in Module decoder_test at C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v line 475
+# Simulation Breakpoint: Break in Module decoder_test at C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v line 475
 # MACRO ./decoder_run_msim_rtl_verilog.do PAUSED at line 17
-# End time: 20:31:12 on Apr 12,2018, Elapsed time: 0:00:12
+# End time: 20:42:36 on Apr 12,2018, Elapsed time: 0:00:17
 # Errors: 0, Warnings: 4

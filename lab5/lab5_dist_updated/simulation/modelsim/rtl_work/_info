@@ -9,44 +9,44 @@ z2
 cModel Technology
 Z0 dC:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/simulation/modelsim
 vdecoder
-Z1 !s110 1523579460
+!s110 1523580138
 !i10b 1
 !s100 Hl1^dXjYEFa@X^EW>A3dH3
 Inon<Tfaf`[4@[=?BeeAO[0
-Z2 V`JN@9S9cnhjKRR_L]QIcM3
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
 R0
 w1523577788
 8C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder.v
 FC:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder.v
 L0 1
-Z3 OV;L;10.3d;59
+Z2 OV;L;10.3d;59
 r1
 !s85 0
 31
-!s108 1523579460.188000
+!s108 1523580138.742000
 !s107 C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated|C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder.v|
 !i113 1
-Z4 o-vlog01compat -work work
-Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated}
+Z3 o-vlog01compat -work work
+Z4 !s92 -vlog01compat -work work {+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated}
 vdecoder_test
-R1
+!s110 1523580139
 !i10b 1
-!s100 L2R>RDP1b_[gEcKcXb8`G3
-I^^SKLBma@657Xo>6MI3AS3
-R2
+!s100 iIVM8S2Bd0HDhNT<`kMnF0
+IhOHe8hVco25mkRdOz?BQY0
+R1
 R0
-w1523579432
+w1523580099
 8C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v
 FC:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v
 L0 8
-R3
+R2
 r1
 !s85 0
 31
-!s108 1523579460.547000
+!s108 1523580138.974000
 !s107 C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated|C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v|
 !i113 1
+R3
 R4
-R5
