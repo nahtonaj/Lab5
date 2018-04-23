@@ -17,10 +17,63 @@ module cpu(CLK, RESET, EN_L, Iin, Din, PC, NextPC, DataA, DataB, DataC, DataD, M
   // reg [7:0] PC;
   // reg [7:0] NextPC;
   
-  wire MW;
+  wire MW, MD, MB, LD, BS, OFF, HALT;
+  wire [5:0] IMM;
+  wire [2:0] DR, SA, SB, FS;
+  wire [7:0] DATA_A, DATA_B, DATA_C, DATA_D;
   
   // ADD YOUR CODE BELOW THIS LINE
 
+  pc pc_mod (
+		.CLK(CLK),
+		.RESET(RESET),
+		.PC(PC),
+		.NEXT_PC(NextPC)
+  );
+  
+  decoder decoder_mod (
+		.INST(Iin),
+		.DR(DR),
+		.SA(SA),
+		.SB(SB),
+		.IMM(IMM),
+		.MB(MB),
+		.FS(FS),
+		.MD(MD),
+		.LD(LD),
+		.MW(MW),
+		.BS(BS),
+		.OFF(OFF),
+		.HALT(HALT)
+  );
+  
+  reg_file reg_file_mod (
+		.RESET(RESET),
+		.SA(SA),
+		.SB(SB),
+		.LD(LD),
+		.DR(DR),
+		.D_in(Din),
+		.DATA_A(DATA_A),
+		.DATA_B(DATA_B)
+		
+  );
+  
+  sext sext_mod (
+  );
+  
+  alu alu_mod (
+		.A(),
+		.B(),
+		.OP(),
+		.Y(),
+		.C(),
+		.V(),
+		.N(),
+		.Z()
+		
+  );
+  
 
   // ADD YOUR CODE ABOVE THIS LINE
 

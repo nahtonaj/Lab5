@@ -3,6 +3,7 @@ module reg_file(RESET, SA, SB, LD, DR, D_in, DATA_A, DATA_B);
 	input  [2:0] SA, SB, DR;
 	input  [7:0] D_in;
 	output [7:0] DATA_A, DATA_B;
+	integer 		 i;
 
 	wire   [7:0] mem[0:7]; // 8-bit wide address
 	
@@ -17,7 +18,7 @@ module reg_file(RESET, SA, SB, LD, DR, D_in, DATA_A, DATA_B);
 	*/
 	
 	if(RESET) begin
-		for(int i = 0; i < 8; i = i+1) begin
+		for(i = 0; i < 8; i = i+1) begin
 			mem[i] <= 8'b00000000;
 		end
 	end
