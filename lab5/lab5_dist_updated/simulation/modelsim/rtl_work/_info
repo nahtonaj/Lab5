@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/simulation/modelsim
 vdecoder
-Z1 !s110 1524472120
+Z1 !s110 1524508830
 !i10b 1
 !s100 O9cI25fSSdNC7zEN=@SbA0
 I7f`1_GDAVA0KRb5i0f^>O0
@@ -23,7 +23,7 @@ Z3 OV;L;10.3d;59
 r1
 !s85 0
 31
-!s108 1524472120.072000
+!s108 1524508830.431000
 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder.v|
 !i113 1
@@ -32,19 +32,19 @@ Z5 !s92 -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/la
 vdecoder_test
 R1
 !i10b 1
-!s100 kK9Pdm9:^cmG^OHh=V3XY2
-Iia4>V^gM2jGkM4X8Po?5n1
+!s100 Ec02]7k7AX[E2>=VDAHfH0
+IFR@QaZ;c5zSc;YdjYC];`1
 R2
 R0
-w1524471175
+w1524508783
 8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v
 FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v
-L0 8
+L0 11
 R3
 r1
 !s85 0
 31
-!s108 1524472120.212000
+!s108 1524508830.541000
 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v|
 !i113 1

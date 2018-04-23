@@ -17,10 +17,10 @@ module cpu(CLK, RESET, EN_L, Iin, Din, PC, NextPC, DataA, DataB, DataC, DataD, M
   // reg [7:0] PC;
   // reg [7:0] NextPC;
   
-  wire MW, MD, MB, LD, BS, OFF, HALT;
+  wire MW, MD, MB, LD, BS, OFF, HALT, C, V, N, Z;
   wire [5:0] IMM;
   wire [2:0] DR, SA, SB, FS;
-  wire [7:0] DATA_A, DATA_B, DATA_C, DATA_D;
+  wire [7:0] DATA_A, DATA_B, DATA_C, DATA_D, S_EXT, MUX_B, MUX_D, DATA_RAM;
   
   // ADD YOUR CODE BELOW THIS LINE
 
@@ -29,6 +29,7 @@ module cpu(CLK, RESET, EN_L, Iin, Din, PC, NextPC, DataA, DataB, DataC, DataD, M
 		.RESET(RESET),
 		.PC(PC),
 		.NEXT_PC(NextPC)
+		
   );
   
   decoder decoder_mod (
@@ -45,6 +46,7 @@ module cpu(CLK, RESET, EN_L, Iin, Din, PC, NextPC, DataA, DataB, DataC, DataD, M
 		.BS(BS),
 		.OFF(OFF),
 		.HALT(HALT)
+		
   );
   
   reg_file reg_file_mod (
@@ -60,21 +62,35 @@ module cpu(CLK, RESET, EN_L, Iin, Din, PC, NextPC, DataA, DataB, DataC, DataD, M
   );
   
   sext sext_mod (
-  );
-  
-  alu alu_mod (
-		.A(),
-		.B(),
-		.OP(),
-		.Y(),
-		.C(),
-		.V(),
-		.N(),
-		.Z()
+		.IMM(IMM),
+		.OUT(S_EXT)
 		
   );
   
+  alu alu_mod (
+		.A(DATA_A),
+		.B(MUX_B),
+		.OP(FS),
+		.Y(DATA_D),
+		.C(C),
+		.V(V),
+		.N(N),
+		.Z(Z)
+		
+  );
 
+
+  assign MUX_B = MB ? DATA_B : S_EXT;
+  assign MUX_D = MD ? DATA_D : DATA_RAM;
+  
+  
+  always @(*) begin
+		
+  
+  end
+  
+  
+  
   // ADD YOUR CODE ABOVE THIS LINE
 
 endmodule

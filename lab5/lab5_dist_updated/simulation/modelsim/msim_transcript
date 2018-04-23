@@ -14,218 +14,73 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 04:28:40 on Apr 23,2018
+# Start time: 14:40:30 on Apr 23,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder.v 
 # -- Compiling module decoder
 # 
 # Top level modules:
 # 	decoder
-# End time: 04:28:40 on Apr 23,2018, Elapsed time: 0:00:00
+# End time: 14:40:30 on Apr 23,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 04:28:40 on Apr 23,2018
+# Start time: 14:40:30 on Apr 23,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v 
 # -- Compiling module decoder_test
 # 
 # Top level modules:
 # 	decoder_test
-# End time: 04:28:40 on Apr 23,2018, Elapsed time: 0:00:00
+# End time: 14:40:30 on Apr 23,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  decoder_test
 # vsim -gui "+altera" -l msim_transcript -do "decoder_run_msim_rtl_verilog.do" 
-# Start time: 04:28:40 on Apr 23,2018
+# Start time: 14:40:30 on Apr 23,2018
 # Loading work.decoder_test
 # Loading work.decoder
-# ** Warning: (vsim-3017) C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v(34): [TFMPC] - Too few port connections. Expected 13, found 10.
+# ** Error: (vsim-3389) C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v(41): Port 'CLK' not found in the connected module (1st connection).
 # 
 #         Region: /decoder_test/dec
-# ** Warning: (vsim-3722) C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v(34): [TFMPC] - Missing connection for port 'BS'.
+# ** Error: (vsim-3389) C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v(41): Port 'RESET' not found in the connected module (2nd connection).
 # 
-# ** Warning: (vsim-3722) C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v(34): [TFMPC] - Missing connection for port 'OFF'.
+#         Region: /decoder_test/dec
+# ** Error: (vsim-3389) C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v(41): Port 'DR_REF' not found in the connected module (12th connection).
 # 
-# ** Warning: (vsim-3722) C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v(34): [TFMPC] - Missing connection for port 'HALT'.
+#         Region: /decoder_test/dec
+# ** Error: (vsim-3389) C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v(41): Port 'SA_REF' not found in the connected module (13th connection).
 # 
+#         Region: /decoder_test/dec
+# ** Error: (vsim-3389) C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v(41): Port 'SB_REF' not found in the connected module (14th connection).
 # 
-# add wave *
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#         Region: /decoder_test/dec
+# ** Error: (vsim-3389) C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v(41): Port 'IMM_REF' not found in the connected module (15th connection).
 # 
-#           File in use by: Jon  Hostname: JONATHAN-SURFAC  ProcessID: 2488
+#         Region: /decoder_test/dec
+# ** Error: (vsim-3389) C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v(41): Port 'MB_REF' not found in the connected module (16th connection).
 # 
-#           Attempting to use alternate WLF file "./wlfts4iw7b".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#         Region: /decoder_test/dec
+# ** Error: (vsim-3389) C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v(41): Port 'FS_REF' not found in the connected module (17th connection).
 # 
-#           Using alternate file: ./wlfts4iw7b
+#         Region: /decoder_test/dec
+# ** Error: (vsim-3389) C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v(41): Port 'MD_REF' not found in the connected module (18th connection).
 # 
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run -all
-# MSIM> 
-# MSIM> # 0
-# MSIM>  INST = [0000][000][000][000000] (imm)
-# MSIM>   DR  = 000			[ OK ]
-# MSIM>   SA  = 000			[ OK ]
-# MSIM>   SB  = 000			[ OK ]
-# MSIM>   IMM = 000000		[ OK ]
-# MSIM>   MB  = 0			[ OK ]
-# MSIM>   FS  = 000			[ OK ]
-# MSIM>   MD  = 0			[ OK ]
-# MSIM>   LD  = 0			[ OK ]
-# MSIM>   MW  = 0			[ OK ]
-# MSIM> 
-# MSIM> # 1
-# MSIM>  INST = [0010][000][001][000010] (imm)
-# MSIM>   DR  = 001			[ OK ]
-# MSIM>   SA  = 000			[ OK ]
-# MSIM>   SB  = 000			[ OK ]
-# MSIM>   IMM = 000010		[ OK ]
-# MSIM>   MB  = 1			[ OK ]
-# MSIM>   FS  = 000			[ OK ]
-# MSIM>   MD  = 1			[ OK ]
-# MSIM>   LD  = 1			[ OK ]
-# MSIM>   MW  = 0			[ OK ]
-# MSIM> 
-# MSIM> # 2
-# MSIM>  INST = [0100][000][001][000010] (imm)
-# MSIM>   DR  = 000			[FAIL]
-# MSIM>   SA  = 000			[ OK ]
-# MSIM>   SB  = 001			[ OK ]
-# MSIM>   IMM = 000010		[ OK ]
-# MSIM>   MB  = 1			[ OK ]
-# MSIM>   FS  = 000			[ OK ]
-# MSIM>   MD  = 1			[ OK ]
-# MSIM>   LD  = 0			[ OK ]
-# MSIM>   MW  = 1			[ OK ]
-# MSIM> 
-# MSIM> # 3
-# MSIM>  INST = [0101][000][001][000010] (imm)
-# MSIM>   DR  = 001			[ OK ]
-# MSIM>   SA  = 000			[ OK ]
-# MSIM>   SB  = 000			[ OK ]
-# MSIM>   IMM = 000010		[ OK ]
-# MSIM>   MB  = 1			[ OK ]
-# MSIM>   FS  = 000			[ OK ]
-# MSIM>   MD  = 0			[ OK ]
-# MSIM>   LD  = 1			[ OK ]
-# MSIM>   MW  = 0			[ OK ]
-# MSIM> 
-# MSIM> # 4
-# MSIM>  INST = [0110][000][001][000010] (imm)
-# MSIM>   DR  = 001			[ OK ]
-# MSIM>   SA  = 000			[ OK ]
-# MSIM>   SB  = 000			[ OK ]
-# MSIM>   IMM = 000010		[ OK ]
-# MSIM>   MB  = 1			[ OK ]
-# MSIM>   FS  = 101			[ OK ]
-# MSIM>   MD  = 0			[ OK ]
-# MSIM>   LD  = 1			[ OK ]
-# MSIM>   MW  = 0			[ OK ]
-# MSIM> 
-# MSIM> # 5
-# MSIM>  INST = [0111][000][001][000010] (imm)
-# MSIM>   DR  = 001			[ OK ]
-# MSIM>   SA  = 000			[ OK ]
-# MSIM>   SB  = 000			[ OK ]
-# MSIM>   IMM = 000010		[ OK ]
-# MSIM>   MB  = 1			[ OK ]
-# MSIM>   FS  = 110			[ OK ]
-# MSIM>   MD  = 0			[ OK ]
-# MSIM>   LD  = 1			[ OK ]
-# MSIM>   MW  = 0			[ OK ]
-# MSIM> 
-# MSIM> # 6
-# MSIM>  INST = [1111][000][001][010][000] (r2r)
-# MSIM>   DR  = 010			[ OK ]
-# MSIM>   SA  = 000			[ OK ]
-# MSIM>   SB  = 001			[ OK ]
-# MSIM>   IMM = 010000		[ OK ]
-# MSIM>   MB  = 0			[ OK ]
-# MSIM>   FS  = 000			[ OK ]
-# MSIM>   MD  = 0			[ OK ]
-# MSIM>   LD  = 1			[ OK ]
-# MSIM>   MW  = 0			[ OK ]
-# MSIM> 
-# MSIM> # 7
-# MSIM>  INST = [1111][000][001][010][001] (r2r)
-# MSIM>   DR  = 010			[ OK ]
-# MSIM>   SA  = 000			[ OK ]
-# MSIM>   SB  = 001			[ OK ]
-# MSIM>   IMM = 010001		[ OK ]
-# MSIM>   MB  = 0			[ OK ]
-# MSIM>   FS  = 001			[ OK ]
-# MSIM>   MD  = 0			[ OK ]
-# MSIM>   LD  = 1			[ OK ]
-# MSIM>   MW  = 0			[ OK ]
-# MSIM> 
-# MSIM> # 8
-# MSIM>  INST = [1111][000][001][010][010] (r2r)
-# MSIM>   DR  = 010			[ OK ]
-# MSIM>   SA  = 000			[ OK ]
-# MSIM>   SB  = 001			[ OK ]
-# MSIM>   IMM = 010010		[ OK ]
-# MSIM>   MB  = 0			[ OK ]
-# MSIM>   FS  = 010			[ OK ]
-# MSIM>   MD  = 0			[ OK ]
-# MSIM>   LD  = 1			[ OK ]
-# MSIM>   MW  = 0			[ OK ]
-# MSIM> 
-# MSIM> # 9
-# MSIM>  INST = [1111][000][001][010][011] (r2r)
-# MSIM>   DR  = 010			[ OK ]
-# MSIM>   SA  = 000			[ OK ]
-# MSIM>   SB  = 001			[ OK ]
-# MSIM>   IMM = 010011		[ OK ]
-# MSIM>   MB  = 0			[ OK ]
-# MSIM>   FS  = 011			[ OK ]
-# MSIM>   MD  = 0			[ OK ]
-# MSIM>   LD  = 1			[ OK ]
-# MSIM>   MW  = 0			[ OK ]
-# MSIM> 
-# MSIM> #10
-# MSIM>  INST = [1111][000][001][010][100] (r2r)
-# MSIM>   DR  = 010			[ OK ]
-# MSIM>   SA  = 000			[ OK ]
-# MSIM>   SB  = 001			[ OK ]
-# MSIM>   IMM = 010100		[ OK ]
-# MSIM>   MB  = 0			[ OK ]
-# MSIM>   FS  = 100			[ OK ]
-# MSIM>   MD  = 0			[ OK ]
-# MSIM>   LD  = 1			[ OK ]
-# MSIM>   MW  = 0			[ OK ]
-# MSIM> 
-# MSIM> #11
-# MSIM>  INST = [1111][000][001][010][101] (r2r)
-# MSIM>   DR  = 010			[ OK ]
-# MSIM>   SA  = 000			[ OK ]
-# MSIM>   SB  = 001			[ OK ]
-# MSIM>   IMM = 010101		[ OK ]
-# MSIM>   MB  = 0			[ OK ]
-# MSIM>   FS  = 101			[ OK ]
-# MSIM>   MD  = 0			[ OK ]
-# MSIM>   LD  = 1			[ OK ]
-# MSIM>   MW  = 0			[ OK ]
-# MSIM> 
-# MSIM> #12
-# MSIM>  INST = [1111][000][001][010][110] (r2r)
-# MSIM>   DR  = 010			[ OK ]
-# MSIM>   SA  = 000			[ OK ]
-# MSIM>   SB  = 001			[ OK ]
-# MSIM>   IMM = 010110		[ OK ]
-# MSIM>   MB  = 0			[ OK ]
-# MSIM>   FS  = 110			[ OK ]
-# MSIM>   MD  = 0			[ OK ]
-# MSIM>   LD  = 1			[ OK ]
-# MSIM>   MW  = 0			[ OK ]
-# MSIM> 
-# MSIM> Prelab 5a Score: 12 / 13
-# ** Note: $stop    : C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v(651)
-#    Time: 1400 ns  Iteration: 0  Instance: /decoder_test
-# Break in Module decoder_test at C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v line 651
-# Simulation Breakpoint: Break in Module decoder_test at C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v line 651
-# MACRO ./decoder_run_msim_rtl_verilog.do PAUSED at line 17
-# End time: 06:23:50 on Apr 23,2018, Elapsed time: 1:55:10
-# Errors: 0, Warnings: 6
+#         Region: /decoder_test/dec
+# ** Error: (vsim-3389) C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v(41): Port 'LD_REF' not found in the connected module (19th connection).
+# 
+#         Region: /decoder_test/dec
+# ** Error: (vsim-3389) C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v(41): Port 'MW_REF' not found in the connected module (20th connection).
+# 
+#         Region: /decoder_test/dec
+# ** Error: (vsim-3389) C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v(41): Port 'PC' not found in the connected module (21st connection).
+# 
+#         Region: /decoder_test/dec
+# ** Fatal: (vsim-3365) C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v(41): Too many port connections. Expected 13, found 22.
+#    Time: 0 ps  Iteration: 0  Instance: /decoder_test/dec File: C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder.v
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./decoder_run_msim_rtl_verilog.do PAUSED at line 12
+# End time: 14:41:56 on Apr 23,2018, Elapsed time: 0:01:26
+# Errors: 13, Warnings: 0
