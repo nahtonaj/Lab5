@@ -14,8 +14,8 @@ module cpu(CLK, RESET, EN_L, Iin, Din, PC, NextPC, DataA, DataB, DataC, DataD, M
   output        MW;
   
   // comment the two lines out below if you use a submodule to generate PC/NextPC
-  reg [7:0] PC;
-  reg [7:0] NextPC;
+  // reg [7:0] PC;
+  // reg [7:0] NextPC;
   
   wire MW;
   

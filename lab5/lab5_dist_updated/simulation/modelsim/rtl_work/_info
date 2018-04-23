@@ -7,46 +7,46 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/simulation/modelsim
+Z0 dC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/simulation/modelsim
 vdecoder
-!s110 1523648357
+Z1 !s110 1524472120
 !i10b 1
-!s100 Hl1^dXjYEFa@X^EW>A3dH3
-Inon<Tfaf`[4@[=?BeeAO[0
-Z1 V`JN@9S9cnhjKRR_L]QIcM3
+!s100 O9cI25fSSdNC7zEN=@SbA0
+I7f`1_GDAVA0KRb5i0f^>O0
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
 R0
-w1523577788
-8C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder.v
-FC:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder.v
+w1524471142
+8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder.v
+FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder.v
 L0 1
-Z2 OV;L;10.3d;59
+Z3 OV;L;10.3d;59
 r1
 !s85 0
 31
-!s108 1523648356.839000
-!s107 C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated|C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder.v|
+!s108 1524472120.072000
+!s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder.v|
 !i113 1
-Z3 o-vlog01compat -work work
-Z4 !s92 -vlog01compat -work work {+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated}
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated
 vdecoder_test
-!s110 1523648358
-!i10b 1
-!s100 7V;O:E=mhA9PA024CLQ<V3
-IA@6zMicRoeW6YSPA8MU[B2
 R1
-R0
-w1523648044
-8C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v
-FC:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v
-L0 8
+!i10b 1
+!s100 kK9Pdm9:^cmG^OHh=V3XY2
+Iia4>V^gM2jGkM4X8Po?5n1
 R2
+R0
+w1524471175
+8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v
+FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v
+L0 8
+R3
 r1
 !s85 0
 31
-!s108 1523648357.717000
-!s107 C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated|C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v|
+!s108 1524472120.212000
+!s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v|
 !i113 1
-R3
 R4
+R5

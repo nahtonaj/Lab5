@@ -1,4 +1,4 @@
-# Reading E:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
 # do decoder_run_msim_rtl_verilog.do
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
@@ -12,44 +12,53 @@
 # ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/gao-p/Google\ Drive/Cornell\ Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated {C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:39:16 on Apr 13,2018
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated" C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder.v 
+# Start time: 04:28:40 on Apr 23,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder.v 
 # -- Compiling module decoder
 # 
 # Top level modules:
 # 	decoder
-# End time: 15:39:17 on Apr 13,2018, Elapsed time: 0:00:01
+# End time: 04:28:40 on Apr 23,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/gao-p/Google\ Drive/Cornell\ Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated {C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:39:17 on Apr 13,2018
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated" C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v 
+# Start time: 04:28:40 on Apr 23,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v 
 # -- Compiling module decoder_test
 # 
 # Top level modules:
 # 	decoder_test
-# End time: 15:39:18 on Apr 13,2018, Elapsed time: 0:00:01
+# End time: 04:28:40 on Apr 23,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  decoder_test
 # vsim -gui "+altera" -l msim_transcript -do "decoder_run_msim_rtl_verilog.do" 
-# Start time: 15:39:18 on Apr 13,2018
+# Start time: 04:28:40 on Apr 23,2018
 # Loading work.decoder_test
 # Loading work.decoder
-# ** Warning: (vsim-3017) C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v(34): [TFMPC] - Too few port connections. Expected 13, found 10.
+# ** Warning: (vsim-3017) C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v(34): [TFMPC] - Too few port connections. Expected 13, found 10.
 # 
 #         Region: /decoder_test/dec
-# ** Warning: (vsim-3722) C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v(34): [TFMPC] - Missing connection for port 'BS'.
+# ** Warning: (vsim-3722) C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v(34): [TFMPC] - Missing connection for port 'BS'.
 # 
-# ** Warning: (vsim-3722) C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v(34): [TFMPC] - Missing connection for port 'OFF'.
+# ** Warning: (vsim-3722) C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v(34): [TFMPC] - Missing connection for port 'OFF'.
 # 
-# ** Warning: (vsim-3722) C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v(34): [TFMPC] - Missing connection for port 'HALT'.
+# ** Warning: (vsim-3722) C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v(34): [TFMPC] - Missing connection for port 'HALT'.
 # 
 # 
 # add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Jon  Hostname: JONATHAN-SURFAC  ProcessID: 2488
+# 
+#           Attempting to use alternate WLF file "./wlfts4iw7b".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlfts4iw7b
+# 
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
@@ -82,9 +91,9 @@
 # MSIM> 
 # MSIM> # 2
 # MSIM>  INST = [0100][000][001][000010] (imm)
-# MSIM>   DR  = 001			[ OK ]
+# MSIM>   DR  = 000			[FAIL]
 # MSIM>   SA  = 000			[ OK ]
-# MSIM>   SB  = 000			[ OK ]
+# MSIM>   SB  = 001			[ OK ]
 # MSIM>   IMM = 000010		[ OK ]
 # MSIM>   MB  = 1			[ OK ]
 # MSIM>   FS  = 000			[ OK ]
@@ -212,9 +221,11 @@
 # MSIM>   LD  = 1			[ OK ]
 # MSIM>   MW  = 0			[ OK ]
 # MSIM> 
-# MSIM> Prelab 5a Score: 13 / 13
-# ** Note: $stop    : C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v(651)
+# MSIM> Prelab 5a Score: 12 / 13
+# ** Note: $stop    : C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v(651)
 #    Time: 1400 ns  Iteration: 0  Instance: /decoder_test
-# Break in Module decoder_test at C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v line 651
-# Simulation Breakpoint: Break in Module decoder_test at C:/Users/gao-p/Google Drive/Cornell Notebooks/ECE2300/Lab5/lab5/lab5_dist_updated/decoder_test.v line 651
+# Break in Module decoder_test at C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v line 651
+# Simulation Breakpoint: Break in Module decoder_test at C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder_test.v line 651
 # MACRO ./decoder_run_msim_rtl_verilog.do PAUSED at line 17
+# End time: 06:23:50 on Apr 23,2018, Elapsed time: 1:55:10
+# Errors: 0, Warnings: 6

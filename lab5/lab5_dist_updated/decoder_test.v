@@ -112,10 +112,10 @@ module decoder_test();
     INST =    16'b0010000001000010;
     DR_REF =  3'b001;
     SA_REF =  3'b000;
-    SB_REF =  3'b0; //Don't care
+    SB_REF =  3'b000; // don't care
     IMM_REF = 6'b000010;
     MB_REF =  1'b1;
-    FS_REF =  3'b000; //ADD
+    FS_REF =  3'b000; // ADD
     MD_REF =  1'b1;
     LD_REF =  1'b1;
     MW_REF =  1'b0;
@@ -155,13 +155,13 @@ module decoder_test();
     // Test #3 SB SAVE BYTE
     //-------------------------------------------------------------------
     INST =    16'b0100000001000010;
-    DR_REF =  3'b001;
+    DR_REF =  3'b001; // don't care
     SA_REF =  3'b000;
-    SB_REF =  3'b0; //Don't care
+    SB_REF =  3'b001; 
     IMM_REF = 6'b000010;
     MB_REF =  1'b1;
-    FS_REF =  3'b000; //ADD
-    MD_REF =  1'b1;
+    FS_REF =  3'b000; // ADD
+    MD_REF =  1'b1; // don't care
     LD_REF =  1'b0;
     MW_REF =  1'b1;
     
@@ -201,10 +201,10 @@ module decoder_test();
     INST =    16'b0101000001000010;
     DR_REF =  3'b001;
     SA_REF =  3'b000;
-    SB_REF =  3'b0; //Don't care
+    SB_REF =  3'b0; // don't care
     IMM_REF = 6'b000010;
     MB_REF =  1'b1;
-    FS_REF =  3'b000; //ADD
+    FS_REF =  3'b000; // ADD
     MD_REF =  1'b0;
     LD_REF =  1'b1;
     MW_REF =  1'b0;

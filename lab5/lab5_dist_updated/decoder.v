@@ -65,9 +65,10 @@ always @(*) begin
 				MB = 1'b1; MD = 1'b1; LD = 1'b1; MW = 1'b0;
 				FS = 3'b000; //ADD IMM to RS
 			end
+			// check SB
 			SB_OP: 
 			begin 
-				DR = RT; SA = RS; SB = 3'b000; //don't care
+				DR = 3'b000; SA = RS; SB = RT; 
 				MB = 1'b1; MD = 1'b1; LD = 1'b0; MW = 1'b1;
 				FS = 3'b000; //ADD IMM to RS
 			end
