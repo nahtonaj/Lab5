@@ -28,8 +28,8 @@ module cpu(CLK, RESET, EN_L, Iin, Din, PC, NextPC, DataA, DataB, DataC, DataD, M
 		.CLK(CLK),
 		.RESET(RESET),
 		.PC(PC),
-		.NEXT_PC(NextPC),
-		.EN_L(EN_L)
+		.NEXT_PC(NextPC)
+		//.EN_L(EN_L)
   );
   
   decoder decoder_mod (

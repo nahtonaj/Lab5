@@ -196,6 +196,7 @@ set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME lab5_test -section_id lab
 set_global_assignment -name EDA_TEST_BENCH_FILE lab5_test.v -section_id lab5_test
 set_instance_assignment -name GLOBAL_SIGNAL "GLOBAL CLOCK" -to CLK
 
+set_global_assignment -name VERILOG_FILE lab5iram1G.v
 set_global_assignment -name VERILOG_FILE decoder_test.v
 set_global_assignment -name VERILOG_FILE reg_file.v
 set_global_assignment -name VERILOG_FILE sext.v

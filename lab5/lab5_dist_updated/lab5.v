@@ -36,7 +36,7 @@ module lab5(CLK, RESET, IOA, IOB, IOC, EN_L, PC, NextPC, Iin, DataA, DataB, Data
   );
     
   // BELOW IS THE ONLY LINE YOU SHOULD HAVE TO MODIFY IN THIS FILE
-  lab5iram program2run(
+  lab5iram1G program2run(
     .CLK(CLK),
     .RESET(RESET),
     .ADDR(PC),

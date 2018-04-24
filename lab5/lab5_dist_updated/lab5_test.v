@@ -185,10 +185,10 @@ module lab5_test();
 
   always @(*) begin
     case (PS)
-      2'b00 : PC_EN = 0;
-      2'b01 : PC_EN = 0;    // change to 1 for enable on negative transition
+      2'b00 : PC_EN = 1;
+      2'b01 : PC_EN = 1;    // change to 1 for enable on negative transition
       2'b10 : PC_EN = 1;
-      default : PC_EN = 0;
+      default : PC_EN = 1;
     endcase
   end
 
