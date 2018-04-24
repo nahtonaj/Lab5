@@ -36,6 +36,10 @@ parameter [3:0] NOP = 4'b0000,
 					 ADDI = 4'b0101,
 					 ANDI = 4'b0110,
 					 ORI = 4'b0111,
+					 BEQ = 4'b1000,
+					 BNE = 4'b1001,
+					 BGEZ = 4'b1010,
+					 BLTZ = 4'1011,
 					 R2R = 4'b1111;
 					 
 // instruction format
@@ -65,7 +69,6 @@ always @(*) begin
 				MB = 1'b1; MD = 1'b1; LD = 1'b1; MW = 1'b0;
 				FS = 3'b000; //ADD IMM to RS
 			end
-			// check SB
 			SB_OP: 
 			begin 
 				DR = 3'b000; SA = RS; SB = RT; 
@@ -90,13 +93,40 @@ always @(*) begin
 				MB = 1'b1; MD = 1'b0; LD = 1'b1; MW = 1'b0;
 				FS = 3'b110; //OR IMM and RS
 			end
+			
+			// branching operations
+			BEQ:
+			begin 
+				DR = 3'b000; SA = RS; SB = RT; //don't care
+				MB = 1'b1; MD = 1'b0; LD = 1'b0; MW = 1'b0;
+				FS = 3'b001; //SUB RS and RT
+			end
+			BNE:
+			begin 
+				DR = 3'b000; SA = RS; SB = RT; //don't care
+				MB = 1'b1; MD = 1'b0; LD = 1'b0; MW = 1'b0;
+				FS = 3'b001; //SUB RS and RT
+			end
+			BGEZ:
+			begin 
+				DR = 3'b000; SA = RS; SB = RT; //don't care
+				MB = 1'b1; MD = 1'b0; LD = 1'b0; MW = 1'b0;
+				FS = 3'b001; //SUB RS and RT
+			end
+			BLTZ:
+			begin 
+				DR = 3'b000; SA = RS; SB = RT; //don't care
+				MB = 1'b1; MD = 1'b0; LD = 1'b0; MW = 1'b0;
+				FS = 3'b001; //SUB RS and RT
+			end
 			default: 
 			begin 
 				DR = RD; SA = RS; SB = RT;
 				MB = 1'b0; MD = 1'b0; LD = 1'b1; MW = 1'b0;
-				FS = FUNCT; //Function for R-type instructions
+				FS = FUNCT; //function for R-type instructions
 			end
 		endcase
+		
 end
 
 endmodule
