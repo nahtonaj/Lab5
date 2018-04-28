@@ -116,13 +116,43 @@ module lab5_test();
   //   is pressed in order to move on from the HALT instruction; these
   //   don't matter for any other instruction...
   initial begin
+    EN_L = 1'b1; 
+    #200
+    EN_L = 1'b0;
+    #400
     EN_L = 1'b1;
-    forever begin
-      #400
-      EN_L = 1'b0;
-      #20
-      EN_L = 1'b1;
-    end  
+    #1400
+    EN_L = 1'b0;
+    #200
+    EN_L = 1'b1;
+    #1800
+    EN_L = 1'b0;
+    #200
+    EN_L = 1'b1;
+    #1800
+    EN_L = 1'b0;
+    #200
+    EN_L = 1'b1;
+    #1800
+    EN_L = 1'b0;
+    #200
+    EN_L = 1'b1;
+    #1800
+    EN_L = 1'b0;
+    #200
+    EN_L = 1'b1;
+    #1800
+    EN_L = 1'b0;
+    #200
+    EN_L = 1'b1;
+    #1800
+    EN_L = 1'b0;
+    #200
+    EN_L = 1'b1;
+    #1800
+    EN_L = 1'b0;
+    #200
+    EN_L = 1'b1;   
   end 
 
   // IOA: starting value for input IOA; change this if you want to
@@ -185,10 +215,10 @@ module lab5_test();
 
   always @(*) begin
     case (PS)
-      2'b00 : PC_EN = 1;
-      2'b01 : PC_EN = 1;    // change to 1 for enable on negative transition
+      2'b00 : PC_EN = 0;
+      2'b01 : PC_EN = 0;    // change to 1 for enable on negative transition
       2'b10 : PC_EN = 1;
-      default : PC_EN = 1;
+      default : PC_EN = 0;
     endcase
   end
 
@@ -385,13 +415,13 @@ module lab5_test();
           end
         end
         4'b1000: begin 
-          $display("MSIM> Instr. %3d (PC = %3d): BEQ  R%1d, R%1d, %3d (branches to PC = %3d)", currentInstruction, PC, rs, rt, immSigned, PC + off); 
+          $display("MSIM> Instr. %3d (PC = %3d): BEQ  R%1d, R%1d, %3d (branches to PC = %3d)", currentInstruction, PC, rs, rt, immSigned, PC + 8'd2 + off); 
           sDataA = sreg[rs];
           sDataB = sreg[rt];
           check_branch(sDataA, sDataB, DataA, DataB);
           if(DataA == DataB) begin
-            if(NextPC != (PC + off)) begin
-              $display("MSIM> --> ERROR: Incorrect branch target %3d, expected %3d", NextPC, PC + off);
+            if(NextPC != (PC + 8'd2 + off)) begin
+              $display("MSIM> --> ERROR: Incorrect branch target %3d, expected %3d", NextPC, PC + 8'd2 + off);
               currentTestCorrect = 0;
             end
           end
@@ -413,13 +443,13 @@ module lab5_test();
           end
         end
         4'b1001: begin 
-          $display("MSIM> Instr. %3d (PC = %3d): BNE  R%1d, R%1d, %3d (branches to PC = %3d)", currentInstruction, PC, rs, rt, immSigned, PC + off); 
+          $display("MSIM> Instr. %3d (PC = %3d): BNE  R%1d, R%1d, %3d (branches to PC = %3d)", currentInstruction, PC, rs, rt, immSigned, PC + 8'd2 + off); 
           sDataA = sreg[rs];
           sDataB = sreg[rt];
           check_branch(sDataA, sDataB, DataA, DataB);
           if(DataA != DataB) begin
-            if(NextPC != (PC + off)) begin
-              $display("MSIM> --> ERROR: Incorrect branch target %3d, expected %3d", NextPC, PC + off);
+            if(NextPC != (PC + 8'd2 + off)) begin
+              $display("MSIM> --> ERROR: Incorrect branch target %3d, expected %3d", NextPC, PC + 8'd2 + off);
               currentTestCorrect = 0;
             end
           end
@@ -441,13 +471,13 @@ module lab5_test();
           end
         end
         4'b1010: begin
-          $display("MSIM> Instr. %3d (PC = %3d): BGEZ R%1d, %3d (branches to PC = %3d)", currentInstruction, PC, rs, immSigned, PC + off); 
+          $display("MSIM> Instr. %3d (PC = %3d): BGEZ R%1d, %3d (branches to PC = %3d)", currentInstruction, PC, rs, immSigned, PC + 8'd2 + off); 
           sDataA = sreg[rs];
           sDataB = sreg[rt];
           check_branch(sDataA,sDataB,DataA,sDataB); // ignore DataB value
           if(DataA[7] == 1'b0) begin
-            if(NextPC != (PC + off)) begin
-              $display("MSIM> --> ERROR: Incorrect branch target %3d, expected %3d", NextPC, PC + off);
+            if(NextPC != (PC + 8'd2 + off)) begin
+              $display("MSIM> --> ERROR: Incorrect branch target %3d, expected %3d", NextPC, PC + 8'd2 + off);
               currentTestCorrect = 0;
             end
           end
@@ -469,13 +499,13 @@ module lab5_test();
           end
         end
         4'b1011: begin 
-          $display("MSIM> Instr. %3d (PC = %3d): BLTZ R%1d, %3d (branches to PC = %3d)", currentInstruction, PC, rs, immSigned, PC + off); 
+          $display("MSIM> Instr. %3d (PC = %3d): BLTZ R%1d, %3d (branches to PC = %3d)", currentInstruction, PC, rs, immSigned, PC + 8'd2 + off); 
           sDataA = sreg[rs];
           sDataB = sreg[rt];                    
           check_branch(sDataA, sDataB, DataA, sDataB); // ignore DataB value
           if(DataA[7] == 1'b1) begin
-            if(NextPC != (PC + off)) begin
-              $display("MSIM> --> ERROR: Incorrect branch target %3d, expected %3d", NextPC, PC + off);
+            if(NextPC != (PC + 8'd2 + off)) begin
+              $display("MSIM> --> ERROR: Incorrect branch target %3d, expected %3d", NextPC, PC + 8'd2 + off);
               currentTestCorrect = 0;
             end
           end

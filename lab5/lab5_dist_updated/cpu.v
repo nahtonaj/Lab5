@@ -17,7 +17,7 @@ module cpu(CLK, RESET, EN_L, Iin, Din, PC, NextPC, DataA, DataB, DataC, DataD, M
   // reg [7:0] PC;
   // reg [7:0] NextPC;
   
-  wire MW, MD, MB, LD, BS, OFF, HALT, C, V, N, Z;
+  wire MW, MD, MB, LD, BS, OFF, HALT, C, V, N, Z, H;
   wire [5:0] IMM;
   wire [2:0] DR, SA, SB, FS;
   wire [7:0] S_EXT, MUX_B;
@@ -28,8 +28,8 @@ module cpu(CLK, RESET, EN_L, Iin, Din, PC, NextPC, DataA, DataB, DataC, DataD, M
 		.CLK(CLK),
 		.RESET(RESET),
 		.PC(PC),
-		.NEXT_PC(NextPC)
-		//.EN_L(EN_L)
+		.NEXT_PC(NextPC),
+		.H(H)
   );
   
   decoder decoder_mod (
@@ -78,6 +78,13 @@ module cpu(CLK, RESET, EN_L, Iin, Din, PC, NextPC, DataA, DataB, DataC, DataD, M
 		.N(N),
 		.Z(Z)
 		
+  );
+  
+  halt_logic halt_logic_mod (
+		.HALT(HALT),
+		.EN_L(EN_L),  
+		.H(H),
+		.CLK(CLK)
   );
 
   assign MUX_B = MB ? S_EXT : DataB;

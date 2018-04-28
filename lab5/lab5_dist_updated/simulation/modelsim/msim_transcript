@@ -12,222 +12,232 @@
 # ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5iram1G.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5iram2E.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 21:51:58 on Apr 23,2018
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5iram1G.v 
-# -- Compiling module lab5iram1G
+# Start time: 12:17:44 on Apr 28,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5iram2E.v 
+# -- Compiling module lab5iram2E
 # 
 # Top level modules:
-# 	lab5iram1G
-# End time: 21:51:58 on Apr 23,2018, Elapsed time: 0:00:00
+# 	lab5iram2E
+# End time: 12:17:45 on Apr 28,2018, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/reg_file.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 21:51:58 on Apr 23,2018
+# Start time: 12:17:45 on Apr 28,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/reg_file.v 
 # -- Compiling module reg_file
 # 
 # Top level modules:
 # 	reg_file
-# End time: 21:51:58 on Apr 23,2018, Elapsed time: 0:00:00
+# End time: 12:17:45 on Apr 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/sext.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 21:51:58 on Apr 23,2018
+# Start time: 12:17:45 on Apr 28,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/sext.v 
 # -- Compiling module sext
 # 
 # Top level modules:
 # 	sext
-# End time: 21:51:58 on Apr 23,2018, Elapsed time: 0:00:00
+# End time: 12:17:45 on Apr 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/pc.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 21:51:58 on Apr 23,2018
+# Start time: 12:17:45 on Apr 28,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/pc.v 
 # -- Compiling module pc
 # 
 # Top level modules:
 # 	pc
-# End time: 21:51:58 on Apr 23,2018, Elapsed time: 0:00:00
+# End time: 12:17:45 on Apr 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 21:51:58 on Apr 23,2018
+# Start time: 12:17:45 on Apr 28,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder.v 
 # -- Compiling module decoder
 # 
 # Top level modules:
 # 	decoder
-# End time: 21:51:58 on Apr 23,2018, Elapsed time: 0:00:00
+# End time: 12:17:45 on Apr 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/var_clk.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 21:51:58 on Apr 23,2018
+# Start time: 12:17:45 on Apr 28,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/var_clk.v 
 # -- Compiling module var_clk
 # -- Compiling module pclock
 # 
 # Top level modules:
 # 	var_clk
-# End time: 21:51:58 on Apr 23,2018, Elapsed time: 0:00:00
+# End time: 12:17:45 on Apr 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5dram.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 21:51:59 on Apr 23,2018
+# Start time: 12:17:45 on Apr 28,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5dram.v 
 # -- Compiling module lab5dram
 # 
 # Top level modules:
 # 	lab5dram
-# End time: 21:51:59 on Apr 23,2018, Elapsed time: 0:00:00
+# End time: 12:17:45 on Apr 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5_top.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 21:51:59 on Apr 23,2018
+# Start time: 12:17:45 on Apr 28,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5_top.v 
 # -- Compiling module lab5_top
 # 
 # Top level modules:
 # 	lab5_top
-# End time: 21:51:59 on Apr 23,2018, Elapsed time: 0:00:00
+# End time: 12:17:45 on Apr 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 21:51:59 on Apr 23,2018
+# Start time: 12:17:45 on Apr 28,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5.v 
 # -- Compiling module lab5
 # 
 # Top level modules:
 # 	lab5
-# End time: 21:51:59 on Apr 23,2018, Elapsed time: 0:00:00
+# End time: 12:17:45 on Apr 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/hex_to_seven_seg.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 21:51:59 on Apr 23,2018
+# Start time: 12:17:46 on Apr 28,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/hex_to_seven_seg.v 
 # -- Compiling module hex_to_seven_seg
 # 
 # Top level modules:
 # 	hex_to_seven_seg
-# End time: 21:51:59 on Apr 23,2018, Elapsed time: 0:00:00
+# End time: 12:17:46 on Apr 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/dual_reg_in.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 21:51:59 on Apr 23,2018
+# Start time: 12:17:46 on Apr 28,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/dual_reg_in.v 
 # -- Compiling module dual_reg_in
 # 
 # Top level modules:
 # 	dual_reg_in
-# End time: 21:51:59 on Apr 23,2018, Elapsed time: 0:00:00
+# End time: 12:17:46 on Apr 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/cpu.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 21:51:59 on Apr 23,2018
+# Start time: 12:17:46 on Apr 28,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/cpu.v 
 # -- Compiling module cpu
 # 
 # Top level modules:
 # 	cpu
-# End time: 21:51:59 on Apr 23,2018, Elapsed time: 0:00:00
+# End time: 12:17:46 on Apr 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/alu.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 21:51:59 on Apr 23,2018
+# Start time: 12:17:46 on Apr 28,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/alu.v 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 21:51:59 on Apr 23,2018, Elapsed time: 0:00:00
+# End time: 12:17:46 on Apr 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/muxADD.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 21:51:59 on Apr 23,2018
+# Start time: 12:17:46 on Apr 28,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/muxADD.v 
 # -- Compiling module muxADD
 # 
 # Top level modules:
 # 	muxADD
-# End time: 21:52:00 on Apr 23,2018, Elapsed time: 0:00:01
+# End time: 12:17:46 on Apr 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/control.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 21:52:00 on Apr 23,2018
+# Start time: 12:17:46 on Apr 28,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/control.v 
 # -- Compiling module control
 # 
 # Top level modules:
 # 	control
-# End time: 21:52:00 on Apr 23,2018, Elapsed time: 0:00:00
+# End time: 12:17:46 on Apr 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/logical.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 21:52:00 on Apr 23,2018
+# Start time: 12:17:46 on Apr 28,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/logical.v 
 # -- Compiling module logical
 # 
 # Top level modules:
 # 	logical
-# End time: 21:52:00 on Apr 23,2018, Elapsed time: 0:00:00
+# End time: 12:17:46 on Apr 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/shifter.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 21:52:00 on Apr 23,2018
+# Start time: 12:17:46 on Apr 28,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/shifter.v 
 # -- Compiling module shifter
 # 
 # Top level modules:
 # 	shifter
-# End time: 21:52:00 on Apr 23,2018, Elapsed time: 0:00:00
+# End time: 12:17:46 on Apr 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/muxOSEL.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 21:52:00 on Apr 23,2018
+# Start time: 12:17:47 on Apr 28,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/muxOSEL.v 
 # -- Compiling module muxOSEL
 # 
 # Top level modules:
 # 	muxOSEL
-# End time: 21:52:00 on Apr 23,2018, Elapsed time: 0:00:00
+# End time: 12:17:47 on Apr 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/adder.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 21:52:00 on Apr 23,2018
+# Start time: 12:17:47 on Apr 28,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/adder.v 
 # -- Compiling module adder
 # 
 # Top level modules:
 # 	adder
-# End time: 21:52:00 on Apr 23,2018, Elapsed time: 0:00:00
+# End time: 12:17:47 on Apr 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/full.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 21:52:01 on Apr 23,2018
+# Start time: 12:17:47 on Apr 28,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/full.v 
 # -- Compiling module full
 # 
 # Top level modules:
 # 	full
-# End time: 21:52:01 on Apr 23,2018, Elapsed time: 0:00:00
+# End time: 12:17:47 on Apr 28,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/halt_logic.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:17:47 on Apr 28,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/halt_logic.v 
+# -- Compiling module halt_logic
+# 
+# Top level modules:
+# 	halt_logic
+# End time: 12:17:47 on Apr 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated {C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5_test.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 21:52:01 on Apr 23,2018
+# Start time: 12:17:47 on Apr 28,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated" C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5_test.v 
 # -- Compiling module lab5_test
 # 
 # Top level modules:
 # 	lab5_test
-# End time: 21:52:01 on Apr 23,2018, Elapsed time: 0:00:00
+# End time: 12:17:47 on Apr 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  lab5_test
 # vsim -gui "+altera" -l msim_transcript -do "ECE2300_run_msim_rtl_verilog.do" 
-# Start time: 21:52:01 on Apr 23,2018
+# Start time: 12:17:47 on Apr 28,2018
 # Loading work.lab5_test
 # Loading work.lab5
 # Loading work.cpu
@@ -243,18 +253,22 @@
 # Loading work.control
 # Loading work.muxADD
 # Loading work.muxOSEL
-# Loading work.lab5iram1G
+# Loading work.halt_logic
+# Loading work.lab5iram2E
 # Loading work.lab5dram
+# ** Warning: (vsim-3015) C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/cpu.v(35): [PCDPC] - Port size (4) does not match connection size (1) for port 'BS'. The port definition is at: C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder.v(1).
+# 
+#         Region: /lab5_test/UUT/proc/decoder_mod
 # 
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 # 
 #           File in use by: Jon  Hostname: JONATHAN-SURFAC  ProcessID: 2488
 # 
-#           Attempting to use alternate WLF file "./wlft7q5cmh".
+#           Attempting to use alternate WLF file "./wlft3mesw4".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
 # 
-#           Using alternate file: ./wlft7q5cmh
+#           Using alternate file: ./wlft3mesw4
 # 
 # view structure
 # .main_pane.structure.interior.cs.body.struct
@@ -263,188 +277,119 @@
 # run -all
 # MSIM> --> PC_EN = x at time = 0 (ignore until Part C)
 # MSIM> 
-# MSIM> --> PC_EN = 1 at time = 50 (ignore until Part C)
+# MSIM> --> PC_EN = 0 at time = 50 (ignore until Part C)
 # MSIM> 
-# MSIM> Instr.   0 (PC =   0): SUB  R2, R2, R2
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> --> PC_EN = 1 at time = 250 (ignore until Part C)
 # MSIM> 
-# MSIM> Instr.   1 (PC =   0): SUB  R2, R2, R2
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.   2 (PC =   2): SUB  R1, R1, R1
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.   3 (PC =   4): ADDI R2, R2,  -1
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.   4 (PC =   6): SB   R1,   0(R2)
-# MSIM> --> Output on IOG of 00
-# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
-# MSIM> 
-# MSIM> Instr.   5 (PC =   8): ADDI R1, R1,   1
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.   6 (PC =  10): SB   R1,   0(R2)
-# MSIM> --> Output on IOG of 01
-# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
-# MSIM> 
-# MSIM> Instr.   7 (PC =  12): ADDI R1, R1,   1
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.   8 (PC =  14): SB   R1,   0(R2)
-# MSIM> --> Output on IOG of 02
-# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
-# MSIM> 
-# MSIM> Instr.   9 (PC =  16): ADDI R1, R1,   1
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.  10 (PC =  18): SB   R1,   0(R2)
-# MSIM> --> Output on IOG of 03
-# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
-# MSIM> 
-# MSIM> Instr.  11 (PC =  20): ADDI R1, R1,   1
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.  12 (PC =  22): SB   R1,   0(R2)
-# MSIM> --> Output on IOG of 04
-# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
-# MSIM> 
-# MSIM> Instr.  13 (PC =  24): ADDI R1, R1,   1
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.  14 (PC =  26): SB   R1,   0(R2)
-# MSIM> --> Output on IOG of 05
-# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
-# MSIM> 
-# MSIM> Instr.  15 (PC =  28): SUB  R3, R3, R3
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.  16 (PC =  30): ADDI R3, R3,   1
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.  17 (PC =  32): ADD  R1, R1, R3
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.  18 (PC =  34): SB   R1,   0(R2)
-# MSIM> --> Output on IOG of 06
-# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
-# MSIM> 
-# MSIM> Instr.  19 (PC =  36): OR   R1, R3, R1
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.  20 (PC =  38): SB   R1,   0(R2)
-# MSIM> --> Output on IOG of 07
-# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
-# MSIM> 
-# MSIM> Instr.  21 (PC =  40): ADDI R1, R3,   0
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.  22 (PC =  42): SLL  R1, R1, R0
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.  23 (PC =  44): SLL  R1, R1, R0
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.  24 (PC =  46): SLL  R1, R1, R0
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.  25 (PC =  48): SB   R1,   0(R2)
-# MSIM> --> Output on IOG of 08
-# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
-# MSIM> 
-# MSIM> Instr.  26 (PC =  50): ORI  R1, R1,   1
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.  27 (PC =  52): SB   R1,   0(R2)
-# MSIM> --> Output on IOG of 09
-# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
-# MSIM> 
-# MSIM> Instr.  28 (PC =  54): SB   R1,   0(R3)
-# MSIM> --> Writing 09 to data RAM address   1
-# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
-# MSIM> 
-# MSIM> Instr.  29 (PC =  56): SUB  R3, R3, R3
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.  30 (PC =  58): LB   R3,   1(R3)
-# MSIM> --> Reading 09 from data RAM address   1
+# MSIM> Instr.   0 (PC =   2): LB   R1,  -7(R0)
+# MSIM> --> INPUT on IOA of 02
 # MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
 # MSIM> 
-# MSIM> Instr.  31 (PC =  60): ADDI R1, R3,   1
+# MSIM> Instr.   1 (PC =   4): ADDI R2, R0,   0
 # MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
 # MSIM> 
-# MSIM> Instr.  32 (PC =  62): SB   R1,   0(R2)
-# MSIM> --> Output on IOG of 0a
+# MSIM> Instr.   2 (PC =   6): SUB  R7, R7, R7
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   3 (PC =   8): BEQ  R0, R1,  16 (branches to PC =  42)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.   4 (PC =  10): ADDI R7, R0,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   5 (PC =  12): ADDI R3, R0,   3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   6 (PC =  14): ADDI R2, R0,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   7 (PC =  16): BEQ  R1, R7,  12 (branches to PC =  42)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.   8 (PC =  18): SUB  R4, R1, R7
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   9 (PC =  20): ADDI R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  10 (PC =  22): BEQ  R0, R4,  10 (branches to PC =  44)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  11 (PC =  24): SRL  R5, R1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  12 (PC =  26): SRL  R6, R7
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  13 (PC =  28): SUB  R4, R5, R6
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  14 (PC =  30): BLTZ R4,   6 (branches to PC =  44)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  15 (PC =  32): ADD  R7, R7, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  16 (PC =  34): ADDI R3, R3,   2
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  17 (PC =  36): ADDI R2, R2,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  18 (PC =  38): BNE  R0, R7, -11 (branches to PC =  18)
+# MSIM> --> ERROR: Incorrect branch target  40, expected  18
+# MSIM> 
+# MSIM> Instr.  19 (PC =  40): BEQ  R1, R7,   6 (branches to PC =  54)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  20 (PC =  42): SB   R2,  -3(R0)
+# MSIM> --> Output on IOE of 02
 # MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
 # MSIM> 
-# MSIM> Instr.  33 (PC =  64): SLL  R1, R1, R0
+# MSIM> Instr.  21 (PC =  44): ADDI R2, R2,  -1
 # MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
 # MSIM> 
-# MSIM> Instr.  34 (PC =  66): SLL  R1, R1, R0
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.  35 (PC =  68): ADDI R1, R1, -18
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.  36 (PC =  70): SRL  R1, R1
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.  37 (PC =  72): SB   R1,   0(R2)
-# MSIM> --> Output on IOG of 0b
+# MSIM> Instr.  22 (PC =  46): SB   R2,  -2(R0)
+# MSIM> --> Output on IOF of 01
 # MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
 # MSIM> 
-# MSIM> Instr.  38 (PC =  74): NOP
-# MSIM> --> The test bench cannot observe NOP.  You should manually check that you haven't written to the register file.
-# MSIM> 
-# MSIM> Instr.  39 (PC =  76): NOP
-# MSIM> --> The test bench cannot observe NOP.  You should manually check that you haven't written to the register file.
-# MSIM> 
-# MSIM> Instr.  40 (PC =  78): ADDI R1, R1,   1
+# MSIM> Instr.  23 (PC =  48): ADDI R2, R0,  -1
 # MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
 # MSIM> 
-# MSIM> Instr.  41 (PC =  80): SRA  R2, R2
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> Instr.  24 (PC =  50): BGEZ R0,   3 (branches to PC =  58)
+# MSIM> --> ERROR: Incorrect branch target  52, expected  58
 # MSIM> 
-# MSIM> Instr.  42 (PC =  82): SB   R1,   0(R2)
-# MSIM> --> Output on IOG of 0c
+# MSIM> Instr.  25 (PC =  52): SB   R2,  -2(R0)
+# MSIM> --> Output on IOF of ff
 # MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
 # MSIM> 
-# MSIM> Instr.  43 (PC =  84): ANDI  R4, R2,  26
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.  44 (PC =  86): SRA  R4, R4
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.  45 (PC =  88): SB   R4,   0(R2)
-# MSIM> --> Output on IOG of 0d
+# MSIM> Instr.  26 (PC =  54): SB   R2,  -3(R0)
+# MSIM> --> Output on IOE of ff
 # MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
 # MSIM> 
-# MSIM> Instr.  46 (PC =  90): ADDI R7, R3,  -2
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.  47 (PC =  92): AND  R0, R7, R2
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.  48 (PC =  94): ADD  R5, R0, R0
-# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
-# MSIM> 
-# MSIM> Instr.  49 (PC =  96): SB   R5,   0(R2)
-# MSIM> --> Output on IOG of 0e
+# MSIM> Instr.  27 (PC =  56): SB   R2,  -1(R0)
+# MSIM> --> Output on IOG of ff
 # MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
 # MSIM> 
-# MSIM> Instr.  50 (PC =  98): NOP
+# MSIM> Instr.  28 (PC =  58): HALT
+# MSIM> 
+# MSIM> --> PC_EN = 0 at time = 3150 (ignore until Part C)
+# MSIM> 
+# MSIM> --> PC_EN = 1 at time = 4050 (ignore until Part C)
+# MSIM> 
+# MSIM> Instr.  29 (PC =  60): NOP
 # MSIM> --> The test bench cannot observe NOP.  You should manually check that you haven't written to the register file.
 # MSIM> 
-# MSIM> Instr.  51 (PC = 100): NOP
+# MSIM> Instr.  30 (PC =  62): NOP
 # MSIM> --> The test bench cannot observe NOP.  You should manually check that you haven't written to the register file.
 # MSIM> 
-# MSIM> Instr.  52 (PC = 102): NOP
+# MSIM> Instr.  31 (PC =  64): NOP
 # MSIM> --> The test bench cannot observe NOP.  You should manually check that you haven't written to the register file.
 # MSIM> 
-# MSIM> Instr.  53 (PC = 104): NOP
+# MSIM> Instr.  32 (PC =  66): NOP
 # MSIM> --> The test bench cannot observe NOP.  You should manually check that you haven't written to the register file.
 # MSIM> 
-# MSIM> Instr.  54 (PC = 106): NOP
+# MSIM> Instr.  33 (PC =  68): NOP
 # MSIM> --> The test bench cannot observe NOP.  You should manually check that you haven't written to the register file.
 # MSIM> 
 # MSIM> ----------------------------------------------------------------------
@@ -454,31 +399,31 @@
 # MSIM> 
 # MSIM> OPCODE |  #Tests  | #Correct 
 # MSIM> -------+----------+----------
-# MSIM> NOP    |        7 |      N/A
+# MSIM> NOP    |        5 |      N/A
 # MSIM> LB     |        1 |        1
-# MSIM> SB     |       16 |       16
-# MSIM> ADDI   |       12 |       12
-# MSIM> ANDI   |        1 |        1
-# MSIM> ORI    |        1 |        1
-# MSIM> ADD    |        2 |        2
-# MSIM> SUB    |        5 |        5
-# MSIM> SRA    |        2 |        2
-# MSIM> SRL    |        1 |        1
-# MSIM> SLL    |        5 |        5
-# MSIM> AND    |        1 |        1
-# MSIM> OR     |        1 |        1
+# MSIM> SB     |        5 |        5
+# MSIM> ADDI   |        9 |        9
+# MSIM> ANDI   |        0 |        0
+# MSIM> ORI    |        0 |        0
+# MSIM> ADD    |        1 |        1
+# MSIM> SUB    |        3 |        3
+# MSIM> SRA    |        0 |        0
+# MSIM> SRL    |        2 |        2
+# MSIM> SLL    |        0 |        0
+# MSIM> AND    |        0 |        0
+# MSIM> OR     |        0 |        0
 # MSIM> -------+----------+----------
-# MSIM> HALT   |        0 |      N/A
-# MSIM> BEQ    |        0 |        0
-# MSIM> BNE    |        0 |        0
-# MSIM> BGEZ   |        0 |        0
-# MSIM> BLTZ   |        0 |        0
+# MSIM> HALT   |        1 |      N/A
+# MSIM> BEQ    |        4 |        4
+# MSIM> BNE    |        1 |        0
+# MSIM> BGEZ   |        1 |        0
+# MSIM> BLTZ   |        1 |        1
 # MSIM> 
-# MSIM>      Correct Instructions:  48
-# MSIM>    Incorrect Instructions:   0
-# MSIM>   Unverified Instructions:   7
+# MSIM>      Correct Instructions:  26
+# MSIM>    Incorrect Instructions:   2
+# MSIM>   Unverified Instructions:   6
 # MSIM>      Invalid Instructions:   0
-# MSIM> Total Instructions Tested:  55
+# MSIM> Total Instructions Tested:  34
 # MSIM> 
 # MSIM> *****************************************************************
 # MSIM> **  You should manually verify that your register file is not  **
@@ -487,10 +432,186 @@
 # MSIM> **   HALT instruction is reached, that the PC does not change  **
 # MSIM> **   until the active low button EN_L is pressed by the user.  **
 # MSIM> *****************************************************************
-# ** Note: $stop    : C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5_test.v(689)
-#    Time: 5500 ns  Iteration: 1  Instance: /lab5_test
-# Break in Module lab5_test at C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5_test.v line 689
-# Simulation Breakpoint: Break in Module lab5_test at C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5_test.v line 689
-# MACRO ./ECE2300_run_msim_rtl_verilog.do PAUSED at line 36
-# End time: 21:53:36 on Apr 23,2018, Elapsed time: 0:01:35
-# Errors: 0, Warnings: 2
+# ** Note: $stop    : C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5_test.v(719)
+#    Time: 4500 ns  Iteration: 1  Instance: /lab5_test
+# Break in Module lab5_test at C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5_test.v line 719
+# Simulation Breakpoint: Break in Module lab5_test at C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5_test.v line 719
+# MACRO ./ECE2300_run_msim_rtl_verilog.do PAUSED at line 37
+add wave -position 5  sim:/lab5_test/UUT/proc/decoder_mod/FUNCT
+add wave -position 4  sim:/lab5_test/UUT/proc/decoder_mod/OP
+add wave -position 7  sim:/lab5_test/UUT/proc/halt_logic_mod/HALT
+add wave -position 8  sim:/lab5_test/UUT/proc/halt_logic_mod/EN_L
+add wave -position 9  sim:/lab5_test/UUT/proc/halt_logic_mod/CLK
+add wave -position 10  sim:/lab5_test/UUT/proc/halt_logic_mod/H
+add wave -position 11  sim:/lab5_test/UUT/proc/halt_logic_mod/currEN_L
+add wave -position 12  sim:/lab5_test/UUT/proc/halt_logic_mod/prevEN_L
+restart -f
+# ** Warning: (vsim-3015) C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/cpu.v(35): [PCDPC] - Port size (4) does not match connection size (1) for port 'BS'. The port definition is at: C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder.v(1).
+# 
+#         Region: /lab5_test/UUT/proc/decoder_mod
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# MSIM> --> PC_EN = x at time = 0 (ignore until Part C)
+# MSIM> 
+# MSIM> --> PC_EN = 0 at time = 50 (ignore until Part C)
+# MSIM> 
+# MSIM> --> PC_EN = 1 at time = 250 (ignore until Part C)
+# MSIM> 
+# MSIM> Instr.   0 (PC =   2): LB   R1,  -7(R0)
+# MSIM> --> INPUT on IOA of 02
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   1 (PC =   4): ADDI R2, R0,   0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   2 (PC =   6): SUB  R7, R7, R7
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   3 (PC =   8): BEQ  R0, R1,  16 (branches to PC =  42)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.   4 (PC =  10): ADDI R7, R0,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   5 (PC =  12): ADDI R3, R0,   3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   6 (PC =  14): ADDI R2, R0,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   7 (PC =  16): BEQ  R1, R7,  12 (branches to PC =  42)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.   8 (PC =  18): SUB  R4, R1, R7
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   9 (PC =  20): ADDI R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  10 (PC =  22): BEQ  R0, R4,  10 (branches to PC =  44)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  11 (PC =  24): SRL  R5, R1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  12 (PC =  26): SRL  R6, R7
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  13 (PC =  28): SUB  R4, R5, R6
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  14 (PC =  30): BLTZ R4,   6 (branches to PC =  44)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  15 (PC =  32): ADD  R7, R7, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  16 (PC =  34): ADDI R3, R3,   2
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  17 (PC =  36): ADDI R2, R2,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  18 (PC =  38): BNE  R0, R7, -11 (branches to PC =  18)
+# MSIM> --> ERROR: Incorrect branch target  40, expected  18
+# MSIM> 
+# MSIM> Instr.  19 (PC =  40): BEQ  R1, R7,   6 (branches to PC =  54)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  20 (PC =  42): SB   R2,  -3(R0)
+# MSIM> --> Output on IOE of 02
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  21 (PC =  44): ADDI R2, R2,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  22 (PC =  46): SB   R2,  -2(R0)
+# MSIM> --> Output on IOF of 01
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  23 (PC =  48): ADDI R2, R0,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  24 (PC =  50): BGEZ R0,   3 (branches to PC =  58)
+# MSIM> --> ERROR: Incorrect branch target  52, expected  58
+# MSIM> 
+# MSIM> Instr.  25 (PC =  52): SB   R2,  -2(R0)
+# MSIM> --> Output on IOF of ff
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  26 (PC =  54): SB   R2,  -3(R0)
+# MSIM> --> Output on IOE of ff
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  27 (PC =  56): SB   R2,  -1(R0)
+# MSIM> --> Output on IOG of ff
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  28 (PC =  58): HALT
+# MSIM> 
+# MSIM> --> PC_EN = 0 at time = 3150 (ignore until Part C)
+# MSIM> 
+# MSIM> --> PC_EN = 1 at time = 4050 (ignore until Part C)
+# MSIM> 
+# MSIM> Instr.  29 (PC =  60): NOP
+# MSIM> --> The test bench cannot observe NOP.  You should manually check that you haven't written to the register file.
+# MSIM> 
+# MSIM> Instr.  30 (PC =  62): NOP
+# MSIM> --> The test bench cannot observe NOP.  You should manually check that you haven't written to the register file.
+# MSIM> 
+# MSIM> Instr.  31 (PC =  64): NOP
+# MSIM> --> The test bench cannot observe NOP.  You should manually check that you haven't written to the register file.
+# MSIM> 
+# MSIM> Instr.  32 (PC =  66): NOP
+# MSIM> --> The test bench cannot observe NOP.  You should manually check that you haven't written to the register file.
+# MSIM> 
+# MSIM> Instr.  33 (PC =  68): NOP
+# MSIM> --> The test bench cannot observe NOP.  You should manually check that you haven't written to the register file.
+# MSIM> 
+# MSIM> ----------------------------------------------------------------------
+# MSIM> 
+# MSIM> PROGRAM EXECUTION SUMMARY
+# MSIM> =========================
+# MSIM> 
+# MSIM> OPCODE |  #Tests  | #Correct 
+# MSIM> -------+----------+----------
+# MSIM> NOP    |        5 |      N/A
+# MSIM> LB     |        1 |        1
+# MSIM> SB     |        5 |        5
+# MSIM> ADDI   |        9 |        9
+# MSIM> ANDI   |        0 |        0
+# MSIM> ORI    |        0 |        0
+# MSIM> ADD    |        1 |        1
+# MSIM> SUB    |        3 |        3
+# MSIM> SRA    |        0 |        0
+# MSIM> SRL    |        2 |        2
+# MSIM> SLL    |        0 |        0
+# MSIM> AND    |        0 |        0
+# MSIM> OR     |        0 |        0
+# MSIM> -------+----------+----------
+# MSIM> HALT   |        1 |      N/A
+# MSIM> BEQ    |        4 |        4
+# MSIM> BNE    |        1 |        0
+# MSIM> BGEZ   |        1 |        0
+# MSIM> BLTZ   |        1 |        1
+# MSIM> 
+# MSIM>      Correct Instructions:  26
+# MSIM>    Incorrect Instructions:   2
+# MSIM>   Unverified Instructions:   6
+# MSIM>      Invalid Instructions:   0
+# MSIM> Total Instructions Tested:  34
+# MSIM> 
+# MSIM> *****************************************************************
+# MSIM> **  You should manually verify that your register file is not  **
+# MSIM> **    being updated incorrectly!  Use the waveform to check    **
+# MSIM> **    this.  Also use the waveform to make sure that when a    **
+# MSIM> **   HALT instruction is reached, that the PC does not change  **
+# MSIM> **   until the active low button EN_L is pressed by the user.  **
+# MSIM> *****************************************************************
+# ** Note: $stop    : C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5_test.v(719)
+#    Time: 4500 ns  Iteration: 1  Instance: /lab5_test
+# Break in Module lab5_test at C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5_test.v line 719
+# End time: 12:40:20 on Apr 28,2018, Elapsed time: 0:22:33
+# Errors: 0, Warnings: 4
