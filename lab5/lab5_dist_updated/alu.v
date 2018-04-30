@@ -1,4 +1,4 @@
-module alu(A, B, OP, Y, C, V, N, Z);
+module alu(A, B, OP, Y, C, V, N, Z, C2Z);
   input  [7:0]  A;
   input  [7:0]  B;
   input  [2:0]  OP;
@@ -8,6 +8,7 @@ module alu(A, B, OP, Y, C, V, N, Z);
   output        V;
   output        N;
   output        Z;
+  output        C2Z;
   
   wire [7:0]	 LOGIC_Y, SHIFT_Y, ADD_Y, Bout;
   wire 			 LOGICAL_OP, LOGIC_C, LOGIC_V;
@@ -18,7 +19,6 @@ module alu(A, B, OP, Y, C, V, N, Z);
   
   // comment out each implemented modules to test them one at a time
   // ADD YOUR CODE BELOW THIS LINE
-  
  
 	adder a(
 		.A(A),
@@ -81,6 +81,7 @@ module alu(A, B, OP, Y, C, V, N, Z);
 		.V(V)
 	);
 	
+	assign C2Z = A[7];
 	assign N = Y[7];
 	assign Z = ~(Y[7] | Y[6] | Y[5] | Y[4] | Y[3] | Y[2] | Y[1] | Y[0]);
 	

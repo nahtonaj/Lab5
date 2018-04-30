@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/simulation/modelsim
 vadder
-Z1 !s110 1524932267
+Z1 !s110 1525119167
 !i10b 1
 !s100 1L2djRU22NfDdz0jaaL]W1
 IiT25fNol?^:Z?EH[MIMQJ3
@@ -23,20 +23,20 @@ Z4 OV;L;10.3d;59
 r1
 !s85 0
 31
-!s108 1524932267.149000
+!s108 1525119167.487000
 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/adder.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/adder.v|
 !i113 1
 Z5 o-vlog01compat -work work
 Z6 !s92 -vlog01compat -work work +incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated
 valu
-Z7 !s110 1524932266
+Z7 !s110 1525119166
 !i10b 1
-!s100 JR9:IeeD^HO[2l1OP_HZe0
-Ig>_DlkEI>MWXD>FN:Nj]V3
+!s100 @cHclNIzI9gdhzizL02@22
+I^nKZSN3PUmP21R[QD5_Hl0
 R2
 R0
-w1523297646
+w1525114207
 8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/alu.v
 FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/alu.v
 L0 1
@@ -44,7 +44,7 @@ R4
 r1
 !s85 0
 31
-!s108 1524932266.430000
+!s108 1525119166.536000
 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/alu.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/alu.v|
 !i113 1
@@ -65,7 +65,7 @@ R4
 r1
 !s85 0
 31
-!s108 1524932266.665000
+!s108 1525119166.848000
 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/control.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/control.v|
 !i113 1
@@ -74,11 +74,11 @@ R6
 vcpu
 R7
 !i10b 1
-!s100 cJ?6ELDXH3:^6G@F5]0Sh2
-IU>@lSb_m<5il^RcmNVLMK0
+!s100 C0Z;]]IzfTm93YAVzgTjh3
+ISY5MFH<97cMNS:l[gnfR:2
 R2
 R0
-w1524932188
+w1525114301
 8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/cpu.v
 FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/cpu.v
 L0 1
@@ -86,20 +86,20 @@ R4
 r1
 !s85 0
 31
-!s108 1524932266.290000
+!s108 1525119166.380000
 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/cpu.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/cpu.v|
 !i113 1
 R5
 R6
 vdecoder
-Z8 !s110 1524932265
+Z8 !s110 1525119165
 !i10b 1
-!s100 zld8;YM1e6P:9_Z8gDzkU0
-I[eP7U30Nf:IYK9mAHLK[N0
+!s100 M:eBGDjHS?[CUOEP3J@_l2
+I@0<_:ZzjmoW7T2Hj=hHTS3
 R2
 R0
-w1524929501
+w1525118525
 8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder.v
 FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder.v
 L0 1
@@ -107,7 +107,7 @@ R4
 r1
 !s85 0
 31
-!s108 1524932265.417000
+!s108 1525119165.301000
 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/decoder.v|
 !i113 1
@@ -128,7 +128,7 @@ R4
 r1
 !s85 0
 31
-!s108 1524932266.180000
+!s108 1525119166.258000
 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/dual_reg_in.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/dual_reg_in.v|
 !i113 1
@@ -149,7 +149,7 @@ R4
 r1
 !s85 0
 31
-!s108 1524932267.290000
+!s108 1525119167.656000
 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/full.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/full.v|
 !i113 1
@@ -170,7 +170,7 @@ R4
 r1
 !s85 0
 31
-!s108 1524932267.399000
+!s108 1525119167.802000
 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/halt_logic.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/halt_logic.v|
 !i113 1
@@ -191,7 +191,7 @@ R4
 r1
 !s85 0
 31
-!s108 1524932266.055000
+!s108 1525119166.101000
 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/hex_to_seven_seg.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/hex_to_seven_seg.v|
 !i113 1
@@ -204,7 +204,7 @@ R8
 ILTC:XGAMMKA^zGhRTC=<z0
 R2
 R0
-w1524931017
+w1525115794
 8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5.v
 FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5.v
 L0 1
@@ -212,20 +212,20 @@ R4
 r1
 !s85 0
 31
-!s108 1524932265.933000
+!s108 1525119165.967000
 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5.v|
 !i113 1
 R5
 R6
 vlab5_test
-R1
+!s110 1525119168
 !i10b 1
-!s100 =WNQ1WVSFf[W^I2kD:oa@3
-Ie?onoA4ALf;Y=Gjd1RE[a0
+!s100 3PlcP`W=ARd4@^_I;Ubci2
+IzGDU_Y30U];DO1LN=9cU20
 R2
 R0
-w1524929730
+w1525118544
 8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5_test.v
 FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5_test.v
 L0 20
@@ -233,7 +233,7 @@ R4
 r1
 !s85 0
 31
-!s108 1524932267.524000
+!s108 1525119168.087000
 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5_test.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5_test.v|
 !i113 1
@@ -254,7 +254,7 @@ R4
 r1
 !s85 0
 31
-!s108 1524932265.823000
+!s108 1525119165.801000
 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5_top.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5_top.v|
 !i113 1
@@ -267,7 +267,7 @@ R8
 I^K^ZMhO=ZjWTcNDMm`EN=3
 R2
 R0
-R9
+w1525118113
 8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5dram.v
 FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5dram.v
 L0 1
@@ -275,14 +275,14 @@ R4
 r1
 !s85 0
 31
-!s108 1524932265.683000
+!s108 1525119165.638000
 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5dram.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5dram.v|
 !i113 1
 R5
 R6
 vlab5iram2E
-!s110 1524932264
+Z10 !s110 1525119164
 !i10b 1
 !s100 L;=1^EYEBImNdAIj^Bjm@2
 IP7Dlc]zoa0a9R>=XHTGYO1
@@ -296,7 +296,7 @@ R4
 r1
 !s85 0
 31
-!s108 1524932264.948000
+!s108 1525119164.685000
 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5iram2E.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/lab5iram2E.v|
 !i113 1
@@ -304,7 +304,7 @@ R5
 R6
 nlab5iram2@e
 vlogical
-R7
+R1
 !i10b 1
 !s100 =5T@VhLV6VXb=RR1=eDg@0
 I2I=i^m]gon5JX=SiXl9L=1
@@ -318,7 +318,7 @@ R4
 r1
 !s85 0
 31
-!s108 1524932266.790000
+!s108 1525119166.985000
 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/logical.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/logical.v|
 !i113 1
@@ -339,13 +339,35 @@ R4
 r1
 !s85 0
 31
-!s108 1524932266.540000
+!s108 1525119166.702000
 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/muxADD.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/muxADD.v|
 !i113 1
 R5
 R6
 nmux@a@d@d
+vmuxBRANCH
+R1
+!i10b 1
+!s100 MceEz2[lYdS^IanMC9BN]2
+I1Y4F`VCeG]Zfg4FLU6f9K1
+R2
+R0
+w1525114260
+8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/muxBRANCH.v
+FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/muxBRANCH.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1525119167.954000
+!s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/muxBRANCH.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/muxBRANCH.v|
+!i113 1
+R5
+R6
+nmux@b@r@a@n@c@h
 vmuxOSEL
 R1
 !i10b 1
@@ -361,7 +383,7 @@ R4
 r1
 !s85 0
 31
-!s108 1524932267.024000
+!s108 1525119167.319000
 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/muxOSEL.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/muxOSEL.v|
 !i113 1
@@ -371,11 +393,11 @@ nmux@o@s@e@l
 vpc
 R8
 !i10b 1
-!s100 :mkfJGIJFA]4RCc`DkX=T1
-IlioKBMP1mZWEAn<@G3b?G1
+!s100 G^:z0<=4DRGm=XmIKccm61
+IKMHiIaY7DbzKNEjGU@ho61
 R2
 R0
-w1524932049
+w1525115059
 8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/pc.v
 FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/pc.v
 L0 1
@@ -383,7 +405,7 @@ R4
 r1
 !s85 0
 31
-!s108 1524932265.308000
+!s108 1525119165.125000
 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/pc.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/pc.v|
 !i113 1
@@ -397,21 +419,21 @@ I6WDj9FA?VAKOWZ3[2G44L2
 R2
 R0
 R9
-Z10 8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/var_clk.v
-Z11 FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/var_clk.v
+Z11 8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/var_clk.v
+Z12 FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/var_clk.v
 L0 52
 R4
 r1
 !s85 0
 31
-Z12 !s108 1524932265.542000
-Z13 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/var_clk.v|
-Z14 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/var_clk.v|
+Z13 !s108 1525119165.470000
+Z14 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/var_clk.v|
+Z15 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/var_clk.v|
 !i113 1
 R5
 R6
 vreg_file
-R8
+R10
 !i10b 1
 !s100 1g[;zKDS3zZ[^c2:4ioGO1
 I4WZA9F;mGUYQzm:5h7>4i2
@@ -425,20 +447,20 @@ R4
 r1
 !s85 0
 31
-!s108 1524932265.073000
+!s108 1525119164.850000
 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/reg_file.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/reg_file.v|
 !i113 1
 R5
 R6
 vsext
-R8
+R10
 !i10b 1
 !s100 72@>lE9X@V0>jIQCH_O1j3
 II4c2QV<>1HQFmK54lUH_G2
 R2
 R0
-w1524515079
+w1525114902
 8C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/sext.v
 FC:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/sext.v
 L0 1
@@ -446,14 +468,14 @@ R4
 r1
 !s85 0
 31
-!s108 1524932265.183000
+!s108 1525119164.969000
 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/sext.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/sext.v|
 !i113 1
 R5
 R6
 vshifter
-R7
+R1
 !i10b 1
 !s100 3;BXPiZDD:e;4886k<3jc0
 IDL3X;FDkoPonU@FnKXTcD0
@@ -467,7 +489,7 @@ R4
 r1
 !s85 0
 31
-!s108 1524932266.915000
+!s108 1525119167.162000
 !s107 C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/shifter.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated|C:/Users/nicole-PC/Documents/ece2300/lab5/Lab5/lab5/lab5_dist_updated/shifter.v|
 !i113 1
@@ -481,16 +503,16 @@ IH?CCK4B8nHPfD<mVH:6fa3
 R2
 R0
 R9
-R10
 R11
+R12
 L0 1
 R4
 r1
 !s85 0
 31
-R12
 R13
 R14
+R15
 !i113 1
 R5
 R6

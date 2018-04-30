@@ -17,9 +17,9 @@ module cpu(CLK, RESET, EN_L, Iin, Din, PC, NextPC, DataA, DataB, DataC, DataD, M
   // reg [7:0] PC;
   // reg [7:0] NextPC;
   
-  wire MW, MD, MB, LD, BS, OFF, HALT, C, V, N, Z, H;
-  wire [5:0] IMM;
-  wire [2:0] DR, SA, SB, FS;
+  wire MP, MW, MD, MB, LD, HALT, C, V, N, Z, H, C2Z;
+  wire [5:0] IMM, OFF;
+  wire [2:0] DR, SA, SB, FS, BS;
   wire [7:0] S_EXT, MUX_B;
   
   // ADD YOUR CODE BELOW THIS LINE
@@ -29,7 +29,16 @@ module cpu(CLK, RESET, EN_L, Iin, Din, PC, NextPC, DataA, DataB, DataC, DataD, M
 		.RESET(RESET),
 		.PC(PC),
 		.NEXT_PC(NextPC),
-		.H(H)
+		.H(H),
+		.MP(MP), 
+		.OFF(OFF)
+  );
+  
+  muxBRANCH muxBRANCH_mod (
+		.Z(Z), 
+		.N(C2Z), 
+		.BS(BS), 
+		.MP(MP)
   );
   
   decoder decoder_mod (
@@ -76,7 +85,8 @@ module cpu(CLK, RESET, EN_L, Iin, Din, PC, NextPC, DataA, DataB, DataC, DataD, M
 		.C(C),
 		.V(V),
 		.N(N),
-		.Z(Z)
+		.Z(Z),
+		.C2Z(C2Z)
 		
   );
   

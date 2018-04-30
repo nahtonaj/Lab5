@@ -15,10 +15,11 @@ output reg
 	LD, 
 	// data ram write enable
 	MW,
-	OFF, HALT;
+	HALT;
 output reg [5:0] 
 	// 6-bit signed immediate
-	IMM;
+	IMM,
+	OFF;
 output reg [2:0]  
 	// register file write address
 	DR, 
@@ -119,15 +120,15 @@ always @(*) begin
 			// branching operations
 			BEQ:
 			begin 
-				DR = 3'b000; SA = RS; SB = RT; //don't care
-				MB = 1'b1; MD = 1'b0; LD = 1'b0; MW = 1'b0;
+				DR = 3'b000; SA = RS; SB = RT; 
+				MB = 1'b0; MD = 1'b0; LD = 1'b0; MW = 1'b0;
 				FS = 3'b001; //SUB RS and RT
 				BS = EQ; HALT = 1'b0; 
 			end
 			BNE:
 			begin 
 				DR = 3'b000; SA = RS; SB = RT; //don't care
-				MB = 1'b1; MD = 1'b0; LD = 1'b0; MW = 1'b0;
+				MB = 1'b0; MD = 1'b0; LD = 1'b0; MW = 1'b0;
 				FS = 3'b001; //SUB RS and RT
 				BS = NE; HALT = 1'b0; 
 			end

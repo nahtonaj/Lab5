@@ -420,8 +420,8 @@ module lab5_test();
           sDataB = sreg[rt];
           check_branch(sDataA, sDataB, DataA, DataB);
           if(DataA == DataB) begin
-            if(NextPC != (PC + 8'd2 + off)) begin
-              $display("MSIM> --> ERROR: Incorrect branch target %3d, expected %3d", NextPC, PC + 8'd2 + off);
+            if(NextPC != (PC + off)) begin
+              $display("MSIM> --> ERROR: Incorrect branch target %3d, expected %3d", NextPC, PC + off);
               currentTestCorrect = 0;
             end
           end
@@ -448,8 +448,8 @@ module lab5_test();
           sDataB = sreg[rt];
           check_branch(sDataA, sDataB, DataA, DataB);
           if(DataA != DataB) begin
-            if(NextPC != (PC + 8'd2 + off)) begin
-              $display("MSIM> --> ERROR: Incorrect branch target %3d, expected %3d", NextPC, PC + 8'd2 + off);
+            if(NextPC != (PC + off)) begin
+              $display("MSIM> --> ERROR: Incorrect branch target %3d, expected %3d", NextPC, PC + off);
               currentTestCorrect = 0;
             end
           end
@@ -476,8 +476,8 @@ module lab5_test();
           sDataB = sreg[rt];
           check_branch(sDataA,sDataB,DataA,sDataB); // ignore DataB value
           if(DataA[7] == 1'b0) begin
-            if(NextPC != (PC + 8'd2 + off)) begin
-              $display("MSIM> --> ERROR: Incorrect branch target %3d, expected %3d", NextPC, PC + 8'd2 + off);
+            if(NextPC != (PC  + off)) begin
+              $display("MSIM> --> ERROR: Incorrect branch target %3d, expected %3d", NextPC, PC  + off);
               currentTestCorrect = 0;
             end
           end
@@ -504,8 +504,8 @@ module lab5_test();
           sDataB = sreg[rt];                    
           check_branch(sDataA, sDataB, DataA, sDataB); // ignore DataB value
           if(DataA[7] == 1'b1) begin
-            if(NextPC != (PC + 8'd2 + off)) begin
-              $display("MSIM> --> ERROR: Incorrect branch target %3d, expected %3d", NextPC, PC + 8'd2 + off);
+            if(NextPC != (PC + off)) begin
+              $display("MSIM> --> ERROR: Incorrect branch target %3d, expected %3d", NextPC, PC  + off);
               currentTestCorrect = 0;
             end
           end
